@@ -48,7 +48,7 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 | 灰霧晶核 / 炎晶 / 冰晶 / 雷晶 | Hôi Vụ Tinh Hạch / Viêm Tinh / Băng Tinh / Lôi Tinh |
 | 灰霧長刀 | trường đao Hôi Vụ |
 | 黑匣子 | hộp đen |
-| 時之砂 | Thời Chi Sa |
+| 時之砂 | Cát Thời Gian |
 | 生命感知 / 治癒術 | cảm tri sinh mệnh / trị liệu thuật |
 | 能量手槍 / 能量強弩 / 狙擊槍 | súng lục năng lượng / nỏ năng lượng / súng bắn tỉa |
 | 恆溫外套 / 防護服 | áo khoác giữ nhiệt / đồ bảo hộ |
@@ -68,10 +68,21 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 | 野怪 / 精英怪 | quái hoang / quái tinh anh |
 | 火蜥斷尾替身 | thế thân Đuôi Đứt Hỏa Tích |
 | 霍玲 | Hoắc Linh |
+| 平安站 / 白樺站 / 冰原站 | Trạm Bình An / Trạm Bạch Hoa / Trạm Băng Nguyên |
+| 世界頻道 / 交易行 / 玩家面板 | kênh thế giới / sàn giao dịch / bảng người chơi |
+| 新手禮包 / 基礎生存車廂 | gói quà tân thủ / toa sinh tồn cơ bản |
+| 黑爺 / 小花 | Hắc gia / Tiểu Hoa |
+| 空間膠囊 / 虛空水晶 | Không Gian Giao Nang / Hư Không Thủy Tinh |
+| 車廂守衛戰 / 模塊升級卡 | Trận Chiến Bảo Vệ Toa Tàu / Thẻ Nâng Cấp Mô-đun |
+| 冰系異能 / 能量感知 | dị năng hệ băng / cảm tri năng lượng |
+| 冰狼 / 頭狼 / 蟲母 | băng lang / sói đầu đàn / trùng mẫu |
+| 灰噬 / 燃彈槍 / 黑金匕首 | Hôi Phệ / súng đạn cháy / dao găm Hắc Kim |
+| 灰霧稻 | lúa Hôi Vụ |
+| 喪屍 / 晶核 / 異能者 | tang thi / tinh hạch / dị năng giả |
 | 品質: 稀有 / 精良 / 史詩 / 珍稀 | Hiếm / Tinh lương / Sử thi / Trân hiếm |
 | 優良 | Ưu Lương |
 
 ## Đã dịch
 
 118–136 (ch.136: Giải Vũ Thần hôn Vân Tịch sau khi nàng và Tiểu Ca ngâm suối nước nóng; nàng hỏi sao y đặc biệt để ý Tiểu Ca. Nơi trú ẩn sắp kích hoạt hệ thống phụ trợ).
-Chương cũ 1–68, 75–102 đang dịch bằng subagent → file `truyen/doan-tau-dot-0.html`.
+Chương cũ (dịch bằng subagent) nằm trong `truyen/doan-tau-dot-0.html`. Chương 99 không có bản gốc (file RAR của người dùng thiếu #99). Với người chơi khác, Vân Tịch xưng "tôi", gọi "anh/cô".
