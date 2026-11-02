@@ -85,4 +85,4 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 ## Đã dịch
 
 118–136 (ch.136: Giải Vũ Thần hôn Vân Tịch sau khi nàng và Tiểu Ca ngâm suối nước nóng; nàng hỏi sao y đặc biệt để ý Tiểu Ca. Nơi trú ẩn sắp kích hoạt hệ thống phụ trợ).
-Chương cũ (dịch bằng subagent) nằm trong `truyen/doan-tau-dot-0.html`. Chương 99 không có bản gốc (file RAR của người dùng thiếu #99). Với người chơi khác, Vân Tịch xưng "tôi", gọi "anh/cô".
+Chương cũ (dịch bằng subagent) nằm trong `truyen/doan-tau-dot-0.html`. Đủ 1–117. Với người chơi khác, Vân Tịch xưng "tôi", gọi "anh/cô".
