@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{SITE_NAME}}</title>
+  <meta name="description" content="{{SITE_DESC}}">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Be+Vietnam+Pro:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script>try { var t = JSON.parse(localStorage.getItem('siteTheme')); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+</head>
+<body>
+  <header class="site-head">
+    <div class="wrap head-row">
+      <a class="logo" href="?" id="logo">{{SITE_NAME}}</a>
+      <form class="search" id="searchForm" role="search">
+        <input type="search" name="q" placeholder="Tìm tên truyện, tác giả…" aria-label="Tìm kiếm" autocomplete="off">
+      </form>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Đổi giao diện sáng/tối">◐</button>
+    </div>
+    <nav class="wrap catnav" id="catNav" aria-label="Thể loại"></nav>
+  </header>
+
+  <main id="app" aria-live="polite"></main>
+
+  <footer class="site-foot">
+    <div class="wrap">{{SITE_NAME}} · {{SITE_DESC}}</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
