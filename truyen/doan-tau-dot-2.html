@@ -1,0 +1,389 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Đoàn Tàu Cầu Sinh: Bàn Tay Vàng Của Tôi Là Bình Tà Hắc Hoa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Be+Vietnam+Pro:wght@400;500;600&display=swap">
+<style>
+/* Layout: one quiet reading column on a sea-glass ground; chapter switcher on top, prev/next at the foot */
+:root {
+  --bg: #f3f6f5;
+  --paper: #fbfcfb;
+  --fg: #1f2a2c;
+  --muted: #5c6c6f;
+  --line: #d6e0df;
+  --accent: #0f6b74;
+  --gold: #a57a1c;
+  --sys-bg: #e6f0ef;
+  --chat-bg: #f0efe9;
+  --display: "Playfair Display", "Times New Roman", serif;
+  --body: "Literata", Georgia, "Times New Roman", serif;
+  --ui: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --size: 1.125rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1719; --paper: #121d20; --fg: #dbe5e4; --muted: #8fa3a5; --line: #26363a;
+    --accent: #5fc1c9; --gold: #d9b45e; --sys-bg: #16292d; --chat-bg: #1b2324; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1719; --paper: #121d20; --fg: #dbe5e4; --muted: #8fa3a5; --line: #26363a;
+  --accent: #5fc1c9; --gold: #d9b45e; --sys-bg: #16292d; --chat-bg: #1b2324; color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--body); }
+.wrap { max-width: 42rem; margin: 0 auto; padding-inline: 20px; padding-block: 2.5rem 3rem; }
+[hidden] { display: none !important; }
+.eyebrow { font-family: var(--ui); font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+h1 { font-family: var(--display); font-weight: 600; font-size: clamp(1.9rem, 6vw, 2.75rem); line-height: 1.15; margin: 0; text-wrap: balance; }
+h1 em { font-style: italic; font-weight: 500; color: var(--accent); }
+.byline { font-family: var(--ui); font-size: .875rem; color: var(--muted); margin: 0; }
+.blurb { font-size: 1rem; line-height: 1.7; color: var(--muted); margin: .5rem 0 0; }
+.blurb p { margin: 0 0 .5rem; }
+header.book { display: grid; gap: .5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--line); }
+button, a.btn { font: inherit; font-family: var(--ui); color: var(--fg); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: .5rem .8rem; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: .35rem; }
+button:hover, a.btn:hover { border-color: var(--accent); }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+button:disabled { opacity: .35; cursor: default; border-color: var(--line); }
+a.btn.primary, button.primary { background: var(--accent); color: var(--paper); border-color: var(--accent); font-weight: 600; }
+.resume { margin-top: 1.25rem; }
+/* table of contents */
+.toc { margin-top: 1.75rem; display: grid; gap: .75rem; font-family: var(--ui); }
+.toc h2 { font-family: var(--display); font-size: 1.4rem; margin: 0 0 .25rem; }
+.toc details { border: 1px solid var(--line); border-radius: 10px; background: var(--paper); }
+.toc summary { cursor: pointer; padding: .8rem 1rem; font-weight: 600; display: flex; justify-content: space-between; gap: .5rem; list-style: none; }
+.toc summary::-webkit-details-marker { display: none; }
+.toc summary::after { content: "▾"; color: var(--muted); }
+.toc details[open] summary::after { content: "▴"; }
+.toc summary .count { color: var(--muted); font-weight: 400; font-size: .85rem; margin-left: auto; }
+.toc ol { list-style: none; margin: 0; padding: 0 0 .4rem; border-top: 1px solid var(--line); }
+.toc li a { display: flex; gap: .75rem; padding: .55rem 1rem; color: var(--fg); text-decoration: none; font-size: .95rem; }
+.toc li a:hover { background: var(--sys-bg); }
+.toc li a .n { color: var(--gold); font-variant-numeric: tabular-nums; min-width: 4.5rem; font-weight: 600; }
+.toc li a.current { background: var(--sys-bg); }
+.fn { background: none; border: 0; padding: 0 .15em; margin: 0; cursor: pointer; font: inherit; line-height: 0; vertical-align: super; }
+.fn span { display: inline-block; color: var(--accent); font-family: var(--ui); font-size: .7em; font-weight: 600; line-height: 1; padding: .15em .4em; border-radius: 99px; background: var(--sys-bg); }
+.fn:hover span, .fn[aria-expanded="true"] span { background: var(--accent); color: var(--bg); }
+.fnpop { position: absolute; z-index: 20; max-width: min(22rem, calc(100vw - 32px)); background: var(--bg); color: var(--fg); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 8px 28px rgba(0,0,0,.22); padding: .7rem .9rem; font-family: var(--ui); font-size: .88rem; line-height: 1.55; }
+.fnpop[hidden] { display: none; }
+.notes { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line); font-family: var(--ui); font-size: .85rem; color: var(--muted); line-height: 1.6; }
+.notes h3 { font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; margin: 0 0 .5rem; }
+.notes ol { margin: 0; padding-left: 1.2rem; }
+.note { font-family: var(--ui); font-size: .8rem; color: var(--muted); text-align: center; margin-top: 2rem; }
+/* reader */
+.topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+.topbar .inner { max-width: 42rem; margin: 0 auto; padding: .5rem 20px; display: flex; align-items: center; gap: .5rem; font-family: var(--ui); font-size: .85rem; }
+.topbar .label { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--muted); }
+.topbar button { padding: .35rem .6rem; }
+.text .tts-now { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
+#tts[aria-pressed="true"] { background: var(--accent); color: #fff; }
+#ttsrate { min-width: 3rem; }
+#fabnext { position: fixed; right: 10px; top: 50%; transform: translateY(-50%); width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--line); background: var(--bg); color: var(--accent); font-size: 26px; line-height: 1; padding: 0 0 3px; opacity: .55; z-index: 20; box-shadow: 0 1px 6px rgba(0,0,0,.25); cursor: pointer; }
+#fabnext:active { opacity: 1; }
+#fabnext[hidden] { display: none; }
+.reader .wrap { padding-block: 1.75rem 6.5rem; }
+.ch-num { font-family: var(--ui); font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin: 0 0 .35rem; }
+h2.ch-title { font-family: var(--display); font-weight: 600; font-size: 1.75rem; margin: 0 0 1.75rem; text-wrap: balance; }
+.text { font-size: var(--size); line-height: 1.85; }
+.text p { margin: 0 0 1em; }
+.text .sys { font-family: var(--ui); font-size: .92em; line-height: 1.65; background: var(--sys-bg); border-left: 3px solid var(--accent); padding: .6rem .9rem; margin: 0 0 .5em; border-radius: 0 6px 6px 0; }
+.text .sys + p:not(.sys) { margin-top: 1em; }
+.text .chat { font-family: var(--ui); font-size: .9em; line-height: 1.6; background: var(--chat-bg); padding: .45rem .8rem; margin: 0 0 .35em; border-radius: 6px; }
+.text .chat + p:not(.chat) { margin-top: 1em; }
+.text .beat { text-align: center; color: var(--muted); letter-spacing: .3em; }
+.bottombar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background: var(--paper); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.bottombar .inner { max-width: 42rem; margin: 0 auto; padding: .55rem 16px; display: grid; grid-template-columns: 1fr auto 1fr; gap: .5rem; font-family: var(--ui); font-size: .9rem; }
+.bottombar button { width: 100%; padding: .6rem .3rem; white-space: nowrap; font-size: .85rem; }
+.bottombar .toc-btn { width: auto; padding-inline: .8rem; }
+</style>
+
+<div id="home">
+  <div class="wrap">
+    <header class="book">
+      <div class="eyebrow">Khoa huyễn · Cầu sinh trên tàu · Đang ra</div>
+      <h1>Đoàn Tàu Cầu Sinh: <em>Bàn Tay Vàng Của Tôi Là Bình Tà Hắc Hoa</em></h1>
+      <p class="byline">Nguyên tác: 列車求生：我的金手指是瓶邪黑花 · Tác giả: Biến Tích Thiên Nhai (遍跡天涯) · Bản dịch tiếng Việt</p>
+      <div class="blurb">
+        <p>【Điểm đánh giá vừa ra, sẽ tăng】【Bốn nam chủ, Bình Tà Hắc Hoa x nữ chủ, all, người bình thường, cả đoàn cưng chiều lẫn nhau】</p>
+        <p>Khi Thẩm Vân Tịch bị ném vào trò chơi cầu sinh trên tàu, hệ thống nói sức chiến đấu của cô chỉ có 5, trong khi mức trung bình của nữ giới trưởng thành là 8.</p>
+        <p>Đúng lúc cô chuẩn bị nằm thẳng chờ chết——</p>
+        <p>Trong toa tàu bỗng dưng xuất hiện bốn anh đẹp trai cực phẩm, cosplay thành Trương Khởi Linh, Ngô Tà, Giải Vũ Thần và Hắc Hạt Tử.</p>
+        <p>Chuyên nghiệp đến mức cô cũng ngại…</p>
+      </div>
+      <div class="resume"><a id="resume" class="btn primary" href="#"></a></div>
+    </header>
+    <section class="toc" aria-label="Mục lục">
+      <h2 id="muc-luc-title">Mục lục</h2>
+      <div id="toc"></div>
+    </section>
+    <p class="note">Bản dịch được đăng với sự đồng ý của tác giả. Các chương tiếp theo sẽ được cập nhật dần.</p>
+  </div>
+</div>
+
+<div id="reader" class="reader" hidden>
+  <div class="topbar"><div class="inner">
+    <button id="back" type="button" aria-label="Quay lại">←</button>
+    <span class="label" id="rlabel"></span>
+    <button id="tts" type="button" aria-label="Nghe đọc chương" aria-pressed="false">🔊</button>
+    <button id="ttsrate" type="button" aria-label="Tốc độ đọc">1×</button>
+    <button id="ttsvoice" type="button" aria-label="Đổi giọng đọc">🗣</button>
+    <button id="smaller" type="button" aria-label="Chữ nhỏ hơn">A−</button>
+    <button id="bigger" type="button" aria-label="Chữ to hơn">A+</button>
+  </div></div>
+  <div class="wrap"><article id="article" aria-live="polite"></article></div>
+  <button id="fabnext" type="button" aria-label="Chương sau">›</button>
+  <nav class="bottombar" aria-label="Chuyển chương"><div class="inner">
+    <button id="prev" type="button">← Chương trước</button>
+    <button id="tocbtn" class="toc-btn" type="button" aria-label="Mục lục">☰ Mục lục</button>
+    <button id="next" type="button">Chương sau →</button>
+  </div></nav>
+</div>
+
+<script>
+const CHAPTERS = [{"n":118,"title":"Cô Có Nhẫn Tâm Không","lines":["Thẩm Vân Tịch bận rộn trong bếp một hồi, nấu một nồi ma lạt thang{{ma lạt thang (麻辣烫): món lẩu cay tê kiểu Tứ Xuyên, nhúng nhiều loại viên, rau, đậu phụ, thịt thái lát trong nước dùng cay.}}, thả vào bò viên, tôm viên, đậu phụ cá, đậu phụ đông lạnh, miến dẹt, rong biển, giá đỗ, thịt hộp, rau xanh mọc nhanh cùng mấy cuộn thịt bò thịt dê thái lát.","Trong toa tàu nhiệt độ luôn giữ hai mươi sáu độ, mặc đồ ở nhà mỏng manh cũng không thấy lạnh, ăn ma lạt thang toát ra một lớp mồ hôi mỏng, ngược lại thấy rất dễ chịu.","Giờ có khoang y tế, đến cả Giải Vũ Thần cũng dám ăn chút đồ cay, cổ họng có vấn đề nhỏ gì thì chữa một chút là lại lành lặn như cũ.","Ăn cơm xong, Thẩm Vân Tịch vứt đũa xuống, cầm quần áo thay đi sang toa tắm rửa.","Lúc nước nóng xối xuống, nàng nhắm mắt đứng rất lâu, trong đầu vẫn đang lướt lại chuyện chiều nay.","Nụ hôn gần như mất kiểm soát với Giải Vũ Thần trước cửa khoang y tế, nụ hôn dịu dàng của Ngô Tà, còn có câu “buổi tối cũng muốn” của Hắc Hạt Tử.","Đến giờ nàng vẫn không chắc lắm mình nên đối mặt với mối quan hệ này thế nào, hình như đã khó mà dùng bất cứ định nghĩa thông thường nào để đóng khung nó nữa rồi.","Thôi vậy, dù sao nếu chuyện này là có tội, thì tuyệt đối không phải tội của một mình nàng.","Nàng tắt vòi nước, lau khô tóc và người, thay một chiếc váy ngủ sạch sẽ.","Lúc bước ra khỏi cửa khoang y tế, nàng khựng lại một chút.","Giải Vũ Thần, Ngô Tà và Hắc Hạt Tử đều đang ngồi trên chiếc giường lớn, ba người ngồi đối diện nhau thành hình tam giác, bầu không khí có chút vi diệu, giống như một kiểu đối đầu không lời.","Chỉ có Trương Khởi Linh ngồi trên sofa, yên lặng lau thanh trường đao Hôi Vụ của mình, như thể chẳng nhận ra điều gì.","Thẩm Vân Tịch đứng ở cửa toa xưởng, động tác lau tóc khựng lại hai giây.","“Sao thế?” Nàng thăm dò hỏi một câu.","Không ai trả lời.","Giải Vũ Thần cầm chiếc máy tính bảng trên tủ đầu giường lên, lật một trang.","Ngô Tà cầm điện thoại lên, bật sáng màn hình rồi lại tắt.","Trong tay Hắc Hạt Tử là chiếc bật lửa nắp lật, lúc mở ra lúc đóng lại.","Thẩm Vân Tịch: “?”","Trương Khởi Linh cất đao, đứng dậy khỏi sofa, ôm một chồng quần áo và khăn tắm đi về phía nhà vệ sinh.","Lúc hai người lướt qua nhau, nàng nghiêng đầu nhìn hắn một cái, hắn cũng vừa khéo nghiêng đầu nhìn sang, đôi mắt đen tuyền dừng trên mặt nàng trong thoáng chốc rồi thu về, đi vào nhà vệ sinh đóng cửa lại.","Thẩm Vân Tịch đứng tại chỗ nghĩ ngợi, quyết định mặc kệ bọn họ.","Nàng trèo lên giường, đương nhiên nằm ở vị trí chính giữa, kéo chăn đắp đến ngang eo.","Theo sắp xếp trước đó, tối nay đáng lẽ Hắc Hạt Tử và Giải Vũ Thần nằm cạnh nàng, Trương Khởi Linh và Ngô Tà nằm phía ngoài.","Nhưng lúc Trương Khởi Linh tắm xong đi ra, hắn đi thẳng đến bên giường, nằm xuống ngay cạnh nàng.","Hắn nằm nghiêng, quay mặt về phía nàng, cánh tay rất tự nhiên đặt bên eo nàng.","Tóc hắn vẫn còn hơi ẩm, hơi thở thanh lạnh hòa lẫn mùi sữa tắm thoang thoảng bay tới.","Thẩm Vân Tịch nghiêng đầu nhìn hắn, hắn nhắm mắt, hơi thở đều đặn, như đã ngủ rồi.","Hắc Hạt Tử đứng dậy từ cuối giường, nhìn hai người họ một cái, khóe miệng giật giật, nhanh chóng cầm quần áo quay người đi về phía nhà vệ sinh.","Lúc đi ngang Giải Vũ Thần và Ngô Tà, hắn ném lại một câu: “Ban ngày hai người làm gì thì tự biết.”","Rất nhanh, cửa nhà vệ sinh đóng lại.","Giải Vũ Thần sắc mặt bình thản đặt máy tính bảng sang một bên, Ngô Tà cất điện thoại, hai người liếc nhìn nhau, đều không tiếp lời Hắc Hạt Tử.","Thẩm Vân Tịch nằm trên giường, nhìn vẻ mặt không mấy vui của Giải Vũ Thần, bỗng thấy rất chột dạ, trong lòng nhất thời đánh trống.","Nàng vươn tay, rụt rè thò về phía Giải Vũ Thần.","Giải Vũ Thần nhìn nàng một cái, không sát lại, chỉ khẽ nắm lấy tay nàng rồi lại buông ra: “Người ta toàn mồ hôi, đợi tắm xong đã.”","Trong lòng Thẩm Vân Tịch thót một cái.","Có phải y hối hận rồi không? Buổi trưa nàng hôn y, buổi chiều lại với Ngô Tà…","Có phải y thấy nàng quá tùy tiện không?","Nàng rúc sâu vào trong chăn, lặng lẽ rụt tay về.","Ánh mắt Giải Vũ Thần dừng trên mặt nàng trong thoáng chốc, rồi cả người sát lại gần, cánh tay vòng qua sau lưng nàng, nhẹ nhàng vớt nàng ra khỏi vòng tay Trương Khởi Linh, ôm trọn vào lòng mình.","“Đừng nghĩ nhiều.” Giọng y hạ rất thấp, môi kề sát vành tai nàng, cọ cọ lên má nàng, hơi thở ấm nóng lướt qua dái tai, “Ta không hối hận, sau này cũng sẽ không hối hận.”","Ngô Tà cũng sáp lại, từ phía bên kia đặt tay lên vai nàng, giọng dịu dàng như đang dỗ dành: “Vân Tịch, đừng sợ, cũng đừng lo.”","Được bọn họ dỗ dành, trong lòng Thẩm Vân Tịch ngổn ngang trăm mối.","Bọn họ đều không để bụng, nàng còn rối rắm cái gì?","Giống như Ngô Tà nói, dù sao mọi người cũng chẳng phải người tốt gì, nàng cũng vậy.","Nàng khẽ gật đầu, nằm xuống lại, nhắm mắt.","Một lúc sau, Hắc Hạt Tử tắm xong đi ra, đương nhiên nằm xuống phía bên kia.","Cánh tay hắn vòng qua eo nàng, lòng bàn tay áp lên eo nàng, cả người dán sát vô cùng, cằm gác lên vai nàng.","Bị hắn ôm từ phía sau, tim Thẩm Vân Tịch lại bắt đầu không nghe lời.","Hắc Hạt Tử ghé sát tai nàng, giọng hạ thấp đến mức chỉ mình nàng nghe thấy, mang theo một điệu tủi thân:","“Ban ngày cô làm chuyện xấu hai lần, lại chừa ta với Á Ba ra, cô có nhẫn tâm không?”"]},{"n":119,"title":"Ta Thừa Nhận Ta Có Chút Thiên Vị","lines":["Thẩm Vân Tịch cả người cứng đờ, lưng áp vào lồng ngực ấm nóng của Hắc Hạt Tử, bên eo bị lòng bàn tay hắn phủ lên vững vàng, hơi nóng thấm qua lớp váy ngủ mỏng, nóng đến mức da nàng khẽ run.","Trương Khởi Linh bên trái vẫn không mở mắt, hơi thở vẫn đều đặn kéo dài, nhưng lại vươn một tay ôm lấy vai lưng nàng, như che chở nàng trong khoảng trời nhỏ yên ổn nhất.","Hơi thở thanh lạnh vấn vít nơi chóp mũi, làm nhạt đi mấy phần mờ ám quyến luyến mà Hắc Hạt Tử mang đến.","Da đầu Thẩm Vân Tịch hơi tê dại, vùi chặt mặt vào ngực Trương Khởi Linh, nói khẽ: “Muộn rồi, mau ngủ đi.”","Hắc Hạt Tử cười khẽ một tiếng, lồng ngực rung lên truyền qua lưng nàng, cảm giác tê tê theo xương sống chạy thẳng lên gáy: “Sao thế, với hai người họ thì hào phóng thế, đến lượt ta chỉ còn một câu mau ngủ đi? Vân Tịch, cô thiên vị.”","Giọng hắn vẫn cà lơ phất phơ như thường lệ, nhưng lúc này lại bọc một nỗi tủi thân thật sự, đầu ngón tay khẽ cọ qua lớp vải mịn bên eo nàng, cảm giác tồn tại cực mạnh.","Má Thẩm Vân Tịch lại bắt đầu nóng lên, cả người co tư thế ngủ lại thêm mấy phần.","Phía nhà vệ sinh xa xa truyền đến tiếng mở cửa, chắc là Ngô Tà đã tắm xong.","Giải Vũ Thần bên cạnh khẽ gõ đầu ngón tay lên mặt gối, ôn tồn lên tiếng, phá vỡ sự mờ ám quấn quýt này: “Ta đi tắm.”","Động tác đứng dậy của y thong dong khoan thai, rủ mắt nhìn cô gái đang cuộn tròn thành một cục nhỏ giữa giường, trong mắt dịu dàng chưa tan đan xen với một tia u tối, cuối cùng chỉ còn lại ý cười nhàn nhạt.","Đi ngang cuối giường, y cố ý dừng lại, ánh mắt quét qua Hắc Hạt Tử đang dựa sau lưng Thẩm Vân Tịch, không nói gì, nhưng tự mang theo mười phần cảnh cáo.","Hắc Hạt Tử chẳng để tâm, ngược lại còn được đằng chân lân đằng đầu, lòng bàn tay hơi siết lại, ôm Thẩm Vân Tịch chặt hơn trong lòng, cúi đầu ghé tai nàng dỗ dành: “Nhân lúc bọn họ không có ở đây, đền bù cho ta một chút?”","“Đừng quậy.” Thẩm Vân Tịch nghiêng đầu tránh hơi thở của hắn, mặt lại cọ vào ngực Trương Khởi Linh.","Trương Khởi Linh vẫn nhắm mắt dưỡng thần bỗng cử động.","Hắn chậm rãi mở mắt, đôi mắt đen nhánh trong veo mà yên tĩnh, rơi thẳng xuống gò má ửng đỏ của nàng.","Rồi cánh tay đặt trên lưng nàng khẽ thu lại, không lộ dấu vết kéo nàng về phía mình nửa tấc, vừa khéo ngăn cách khoảng cách quá gần của Hắc Hạt Tử.","Hắc Hạt Tử lập tức an phận hẳn, hắn cười khẽ một tiếng, mất hứng thu lại mấy đầu ngón tay quá đáng, chỉ giữ lại lực ôm trên eo nàng, không cố ý trêu chọc nữa, nhưng vẫn ôm chặt người trong lòng.","Trong toa tàu lập tức yên tĩnh lại.","Ngô Tà đi tới bên giường, rủ mắt nhìn cô gái được hai người che chở ở giữa giường, trong mắt dịu dàng quyến luyến, còn giấu cả rung động chưa tan, giọng mang theo chút khàn khàn lười biếng: “Tịch Tịch, ngủ ngon.”","Thẩm Vân Tịch khẽ “ừm” một tiếng, cuối cùng cũng lộ mặt ra khỏi ngực Trương Khởi Linh, ánh mắt vô thức dõi theo y.","Nụ hôn ban ngày trong hành lang mê cung vẫn hằn rõ trong lòng, lực đạo dịu dàng mà nóng bỏng của Ngô Tà, sự thăm dò cẩn thận rồi chìm đắm, giờ nhớ lại vẫn khiến tim nàng loạn nhịp.","Ngô Tà như nhìn thấu tâm tư nàng, xoa xoa má nàng, tặng nàng một nụ cười dịu dàng, rồi nằm xuống phía ngoài Trương Khởi Linh.","Hắc Hạt Tử áp nghiêng mặt lên đỉnh đầu nàng, hơi thở ấm nóng lướt qua sợi tóc, nhẹ nhàng mềm mại.","Bàn tay ôm eo nàng nới lỏng một chút, không còn giam giữ, chỉ còn sự nâng đỡ an ổn, ôm trọn cả người nàng vào lòng.","“Vân Tịch.” Hắn bỗng khẽ lên tiếng, giọng rất nhẹ, tan biến hết vẻ cà lơ phất phơ, chỉ còn một mảnh chân thành, “Ta không vội.”","Lòng Thẩm Vân Tịch khẽ động, nhẹ nghiêng đầu, ánh mắt rơi vào đáy mắt hắn.","Giọng Hắc Hạt Tử hiếm khi nghiêm túc: “Dù sao cô phải nhớ, ta cũng là của cô, sớm một chút muộn một chút, đều không sao.”","Lời nói đơn giản, rũ bỏ hết vẻ bất cần đời, giấu trong đó là tấm lòng chân thành nhất.","Cổ họng Thẩm Vân Tịch hơi nghẹn lại, mớ rối rắm trong lòng bỗng tan đi quá nửa.","Nàng vẫn luôn rối rắm chuyện đúng sai, rối rắm tấm lòng không thể chuyên nhất của mình liệu có quá nông cạn, chẳng đáng gọi là tình yêu.","Nhưng mấy người bên cạnh nàng, không một ai để ý những điều này.","Bọn họ đều nhìn thấu, sống thẳng thắn, chưa từng ép buộc, chỉ lặng lẽ thiên vị.","Có lẽ thứ này khác với yêu hận tình thù của người bình thường, nhưng lại là sợi dây ràng buộc chỉ thuộc về riêng bọn họ.","Có lẽ thật sự giống như Ngô Tà nói, bọn họ vốn chẳng phải người hoàn hảo, gặp gỡ rồi bầu bạn, vốn đã là xứng đôi nhất.","Thẩm Vân Tịch khẽ thở ra một hơi, thả lỏng cơ thể đang căng cứng, rồi hơi xoay người, chủ động hôn lên môi Hắc Hạt Tử.","Hắc Hạt Tử cả người lập tức cứng lại, ngay sau đó mới phản ứng kịp, vừa định đáp lại thì nàng đã lùi ra.","Vành tai Thẩm Vân Tịch ửng đỏ, ánh mắt lại trong veo và nghiêm túc, nói khẽ: “Ta thừa nhận ta có chút thiên vị, nhưng huynh cũng không cần cứ chờ mãi.”","Nghe vậy, trong mắt Hắc Hạt Tử lập tức lan ra ý cười, cúi đầu khẽ cọ lên đỉnh đầu nàng, dịu dàng đến không tưởng.","“Được, sớm muộn gì cũng có một ngày, ta sẽ khiến cô cũng thiên vị ta.” Hắn thấp giọng nói bên tai nàng, lại dùng cánh môi cọ cọ dái tai nàng.","Thẩm Vân Tịch vội vàng nghiêng đầu, liếc mắt liền thấy Trương Khởi Linh đang nhìn mình, lập tức cứng đờ.","Không biết có phải ảo giác không, nàng luôn cảm thấy trong ánh mắt yên tĩnh của hắn dường như mang theo một tia tủi thân nhàn nhạt.","Chắc là ảo giác thôi nhỉ?","Thỉnh thoảng không nén được háo sắc, nàng lại thích chiếm tiện nghi của Trương Khởi Linh, chủ yếu là vì trong đầu hắn không có sợi dây này.","Hắn nổi tiếng không có dục vọng thế tục, trong sách từng thấy ba người phụ nữ khỏa thân, từng bị Hoắc Linh hôn, từng ôm Trần Văn Cẩm{{Hoắc Linh (霍玲), Trần Văn Cẩm (陈文锦): các nhân vật nữ trong nguyên tác Đạo Mộ Bút Ký, nơi Trương Khởi Linh xuất hiện.}}, vậy mà vẫn độc thân hơn một trăm năm.","Không người phụ nữ nào có thể để lại dấu vết trong cuộc đời hắn, đến kết cục của bộ sách cũng vậy.","Thẩm Vân Tịch không nghĩ mình có sức hút đặc biệt gì khiến Trương Khởi Linh khai khiếu chuyện này, những dung túng và chăm sóc trước đây, phần lớn vẫn là vì nàng quá yếu, cùng với việc hắn không có khái niệm giới tính.","Quả nhiên nàng là người xấu, trước giờ cứ cậy vào điểm này mà chiếm tiện nghi của hắn.","Có nên sửa không?","Thẩm Vân Tịch nhìn dung nhan thanh lãnh tuấn mỹ của hắn, cảm nhận hơi thở thanh lạnh trên người hắn, trong lòng toàn là rung động chẳng ra gì.","Thôi vậy, dù sao một khi chạm đến giới hạn của hắn, tự hắn sẽ ngăn nàng lại, không ngăn tức là đồng ý.","“Ngủ thôi.” Thẩm Vân Tịch giơ tay xoa xoa mặt Trương Khởi Linh, nhắm mắt ấp ủ cơn buồn ngủ.","Tiếng nước bên toa tắm rửa đứt quãng vọng lại, làm dịu dàng cả màn đêm trong toa tàu.","Không lâu sau, tiếng nước ngừng.","Giải Vũ Thần cũng quay lại, mái tóc đen còn ướt, sợi tóc nhỏ xuống những giọt nước li ti, theo cổ trượt vào cổ áo rộng của bộ đồ ở nhà, đôi mày mắt diễm lệ đã rũ bỏ vẻ sắc bén ban ngày, chỉ còn ôn nhuận dịu dàng.","Y đi tới bên giường, rủ mắt nhìn cô gái được hai người che chở ở giữa.","Từng đường cong trên gò má trắng nõn của nàng đều hoàn mỹ như thế, hàng mi dài rủ xuống, mày mắt tinh xảo xinh đẹp, lúc này đang yên lặng tựa vào đó, dáng vẻ mềm mại khiến người rung động.","Giải Vũ Thần không lên giường ngay, mà quỳ một gối bên giường, cúi người nhẹ nhàng dém lại góc chăn bị tuột cho nàng, đầu ngón tay vô tình lướt qua vành tai nàng, hơi mát và dịu nhẹ.","“Có lạnh không?” Y khẽ hỏi.","Thẩm Vân Tịch hơi mở mắt, chạm vào đôi mắt hoa đào chứa đầy dịu dàng của y, khẽ lắc đầu: “Không lạnh, vừa vặn.”","Giải Vũ Thần nhẹ giọng nói, giọng nghiêm túc mà dịu dàng: “Vân Tịch, đừng nghĩ nhiều quá, tối nay ngủ ngon.”","Thẩm Vân Tịch gật đầu, hoàn toàn trút bỏ mọi rối rắm và bất an trong lòng."]},{"n":120,"title":"Sân Ga Giao Dịch Bình Thường","lines":["Sáng hôm sau, Thẩm Vân Tịch bị tiếng nhắc của loa dự báo sân ga đánh thức.","【Sân ga phía trước: Trạm Tinh Cảng, sân ga loại giao dịch, mức độ nguy hiểm: không. Môi trường sân ga là đài quan sát của bến cảng liên sao, không có uy hiếp từ quái vật, mời trưởng tàu chuẩn bị xuống tàu trước.】","“Đã bảy rưỡi rồi, sao không gọi ta!” Nàng vội vàng ngồi dậy lấy quần áo.","“Không vội, lần này là sân ga giao dịch.” Hắc Hạt Tử ngồi xuống mép giường, ôm nàng từ phía sau nhìn nàng cúi người lục ba lô, cuối cùng bị nàng vô tình đẩy ra.","“Lần trước cái trạm giao dịch kia bị phá hủy rồi, lần này cuối cùng cũng gặp được một cái bình thường.” Ngô Tà đã rửa mặt xong, đang chọn bữa sáng trong ba lô.","Năm người thu dọn gọn gàng, ăn tạm chút bánh bao với sữa đậu nành, đúng tám giờ đoàn tàu dừng hẳn.","Cửa tàu trượt mở, đại sảnh sân ga toàn một màu trắng tinh, trần nhà cực cao, ánh sáng đều và dịu, không tìm ra nguồn sáng rõ ràng.","Trong đại sảnh xếp ngay ngắn mấy chục chiếc máy bán hàng tự động màu bạc trắng, chiếc nào cũng có kiểu dáng gọn gàng, mặt trước là một màn hình toàn ảnh cỡ lớn, khoang kệ hàng bên hông trong suốt nhìn thấu được, bên trong bày đủ loại vật phẩm.","Quan trọng nhất là, cả đại sảnh không có lấy một bóng người.","“Trống trơn?” Hắc Hạt Tử đã đi ra ngoài dạo một vòng, “Đến một sợi lông cũng không có.”","“Khu vực an toàn mà.” Thẩm Vân Tịch đi tới trước chiếc máy bán hàng gần nhất, màn hình toàn ảnh tự động sáng lên, hiện ra một dòng nhắc:","【Chào mừng sử dụng hệ thống giao dịch tự động của Trạm Giao Dịch Tinh Cảng, điểm hiện có thể dùng: 10100. Mời xem danh mục hàng hóa, chọn vật phẩm quý khách cần.】","Nàng lật xuống một trang, trên màn hình hiện ra một danh sách hàng hóa dài dằng dặc, sau mỗi món đều ghi giá bằng điểm, hơn nữa tồn kho món nào cũng hiển thị là “1”.","“Tổng cộng chỉ có một vạn lẻ một trăm điểm.” Nàng xoay màn hình cho những người khác xem, “Hàng hóa đều là độc nhất, mua rồi là hết.”","“Xem thứ quan trọng nhất trước.” Giải Vũ Thần đứng cạnh nàng, ánh mắt lướt nhanh trên màn hình.","Thẩm Vân Tịch lật xuống hai trang, ngón tay bỗng dừng lại.","【Mảnh Vé Xe Thần Bí ×1 — Giá: 2000 điểm.】","“Mảnh vé xe!” Nàng lập tức bấm mua, số dư điểm nhảy thành 8100.","Trên màn hình máy bán hàng, vị trí của mảnh vé trống không, mảnh vé xe xuất hiện trên bàn lấy hàng.","“Tiếp đi.” Giải Vũ Thần nói.","Nàng lại lật thêm mấy trang, tìm được một món rất đáng giá.","【Bản Vẽ Hỏa Pháo Cao Cấp — Giá: 2500 điểm, có thể chế tạo pháo năng lượng cố định, lắp vào hệ thống vũ khí của đoàn tàu.】","“Cái này tốt, trên nóc tàu chúng ta vừa hay có thể lắp thêm mấy khẩu pháo.” Thẩm Vân Tịch mua luôn, số dư điểm còn 5600.","“Vân Tịch qua đây xem này!” Ngô Tà chỉ vào màn hình máy bán hàng trước mặt y.","Thẩm Vân Tịch liếc mắt đầu tiên đã thấy mấy món tốt:","【Bản Vẽ Băng Đạn Thiêu Đốt ×1 — Giá: 600 điểm.】","【Bản Vẽ Súng Bắn Tỉa Độ Chính Xác Cao ×1 — Giá: 900 điểm.】","【Bản Vẽ Súng Lục Năng Lượng ×1 — Giá: 500 điểm.】","Ngô Tà sáp lại nhìn một cái: “Mua hết đi, súng của chúng ta hiện giờ tuy đủ dùng, nhưng học bản vẽ rồi lúc nào cũng làm được.”","Thẩm Vân Tịch gật đầu, ba tấm bản vẽ tổng cộng tốn 2000, số dư còn 3600.","Nàng tiếp tục lật xuống, ở một góc phát hiện một thiết bị có hình dáng rất đặc biệt, biểu tượng vẽ một chiếc lò nướng màu vàng.","【Máy Đồ Uống Đa Năng — Giá: 1000 điểm. Tích hợp chương trình tổng hợp thực phẩm liên sao, chỉ cần cho vào một loại đồ uống bất kỳ, là có thể dùng các nguyên liệu như dinh dưỡng, nước, chất xơ để tự động sao chép chế tạo.】","“Cái này hay!” Mắt Thẩm Vân Tịch sáng rực lên, “Chỉ cần có mẫu là sao chép được?”","“Mấy thứ đồ uống chúng ta thu được trong phó bản mạt thế.” Ngô Tà lập tức phản ứng, “Kem, trà sữa, trà trái cây, cà phê, đều sao chép được hết.”","“Mua.” Thẩm Vân Tịch không chút do dự mua ngay, số dư còn 2600.","Giải Vũ Thần đi tới trước chiếc máy bán hàng trong cùng, ánh mắt dừng lại trên một món hàng.","【Mô-đun Mở Rộng Toa Cấp Thấp (4 mét) — Giá: 2000 điểm.】","“Vân Tịch mau lại đây, là mô-đun mở rộng!” Giọng y mang theo một tia vui mừng hiếm thấy, “Nâng cấp đang thiếu đúng thứ này.”","“Mua!” Thẩm Vân Tịch chạy tới nhìn một cái, lập tức mua ngay.","“Còn 600, xem còn gì nữa.” Nàng lật lật, phát hiện hai món nhỏ không tồi.","【Hôi Vụ Tinh Hạch trung cấp — Giá: 100 điểm.】","【Một túi nhỏ Cát Thời Gian (10 hạt) — Giá: 500.】","Cuối cùng số dư điểm về không.","“Mua xong rồi.” Nàng đóng giao diện giao dịch, quay người mở cánh cửa kính trong suốt ở cuối đại sảnh.","Ngoài cửa là một công viên rộng rãi, cỏ xanh mướt, cây cối thưa dày xen kẽ, đường mòn quanh co, xa hơn nữa là một thành phố liên sao khổng lồ.","Những tòa nhà phía xa cao chọc trời, mỗi tòa một hình dáng.","Trên đường phố qua lại đủ loại xe huyền phù và phi thuyền đủ hình thù, có chiếc như vỏ sò dẹt, có chiếc như con thoi dài mảnh, lặng lẽ lướt qua bầu trời.","Hình dáng người lái có kẻ rất giống loài người, cũng có kẻ hoàn toàn khác.","Bọn họ phần lớn ngồi trong xe huyền phù hoặc phi thuyền, thỉnh thoảng có vài người đứng trên đường phố ngoài công viên trò chuyện, mặc trang phục kiểu dáng thuôn gọn cực kỳ đơn giản.","“Đây chính là… người ngoài hành tinh?” Ngô Tà đứng cạnh băng ghế trong công viên, ngửa đầu nhìn thành phố phía xa.","“Giống phim khoa học viễn tưởng quá.” Thẩm Vân Tịch đầy mặt kinh ngạc thán phục, “Tiên tiến hơn bên chúng ta nhiều lắm.”","Giải Vũ Thần đi tới lối ra công viên, vốn định ra ngoài xem thử, nhưng dừng lại ở chỗ cách giao lộ khoảng một sải tay, như bị một lớp màng vô hình chặn lại: “Có bức tường vô hình, không qua được.”","Trương Khởi Linh đứng trên bãi cỏ công viên, ngẩng đầu nhìn một chiếc phi thuyền màu bạc đang chậm rãi bay qua phía xa, lặng lẽ nhìn rất lâu.","Hắc Hạt Tử đã rút điện thoại ra bắt đầu quay video, vừa quay vừa chậc chậc cảm thán: “Cái trò chơi đoàn tàu này của chúng ta có phải do người ngoài hành tinh xây không?”","“Ai mà biết? Chụp ảnh trước đã!” Thẩm Vân Tịch lấy điện thoại ra, chụp mấy tấm thành phố liên sao phía xa trước, rồi quay người đưa điện thoại cho Ngô Tà, “Chụp giúp ta.”","Ngô Tà nhận điện thoại, tìm góc đẹp, chụp cho nàng mấy tấm.","Năm người lề mề trong công viên rất lâu, dù sao về cũng chỉ nhìn toa tàu, chẳng thà ở đây ngắm cảnh.","Thẩm Vân Tịch ngồi trên băng ghế dài trong công viên, Trương Khởi Linh và Hắc Hạt Tử ngồi hai bên, cùng nàng chụp ảnh tự sướng.","Giải Vũ Thần thì vẫn luôn nhìn thành phố liên sao bên ngoài, dường như đang quan sát, Ngô Tà về sau cũng nhìn cùng y, thỉnh thoảng bàn bạc gì đó.","10 giờ 59 phút đúng giờ quay về toa tàu, Thẩm Vân Tịch bày từng món mua hôm nay ra, học mấy tấm bản vẽ trước, rồi thử chiếc máy đồ uống đa năng.","Nàng đặt một cốc trà sữa đá vào, đặt dung tích 500ml, máy kêu ù ù mấy giây, màn hình báo chế tạo thành công.","Ngô Tà cầm cốc hứng một cốc, đúng là trà sữa đá, nhiệt độ vừa phải, mùi vị giống hệt.","“Thành rồi.” Y nâng lên uống một ngụm, “Sau này muốn uống gì cũng được.”","Giải Vũ Thần cầm mảnh vé xe thần bí lên xem: “Trước khi vào phó bản đổi một tấm, giờ mua một tấm, còn thiếu một tấm nữa là lại vào được sân ga ẩn một lần.”","“Ta cũng khá thích loại phó bản này, có điều…” Thẩm Vân Tịch đặt mô-đun mở rộng lên bàn thao tác, “Nghĩ xem cái này chọn gì trước đã.”"]},{"n":121,"title":"Mô-đun Toa Ăn","lines":["Ngô Tà nhớ lại kỹ một chút: “Ta nhớ A là toa ăn, B là kho chứa đồ, C là phòng tắm, D là xưởng.”","“C với D đều có rồi.” Thẩm Vân Tịch liếc nhìn mô-đun mở rộng, “Còn B, chúng ta có bốn ba lô không gian, chỗ chứa đồ cơ bản không thiếu.”","“Vậy chỉ còn A.” Giải Vũ Thần đứng cạnh nàng, giơ tay vuốt lại tóc cho nàng, “Tuy chúng ta đã có một căn bếp, nhưng vẫn phải dùng gas của mình.","Không bằng mô-đun toa tàu, máy móc bên trong dùng đều không tiêu hao năng lượng, không biết là nguyên lý gì.”","“Chắc là quyền lợi hiếm hoi của người chơi?” Thẩm Vân Tịch đặt mô-đun mở rộng lên bàn thao tác, màn hình sáng hiện ra giao diện lựa chọn quen thuộc.","【Phát hiện Mô-đun Mở Rộng Toa Cấp Thấp (2 mét), các chức năng hiện có thể chọn (chỉ giới hạn một mục):】","A. Mô-đun toa ăn cơ bản — trang bị bàn nấu nướng đơn giản, tủ lạnh nhỏ, bàn ăn gấp.","B. Mô-đun kho chứa cơ bản — trang bị phòng chứa đồ riêng, bốn kệ chứa tiêu chuẩn (thời gian bên trong ngưng đọng).","C. Mô-đun phòng tắm cơ bản (đã lắp đặt, không thể chọn lại).","D. Mô-đun xưởng cơ bản (đã lắp đặt, không thể chọn lại).","Đếm ngược chỉ có năm giây, Thẩm Vân Tịch lập tức bấm xác nhận.","Vách kim loại ở cuối toa gợn lên những vòng sóng xanh lam quen thuộc, giữa làn sương xám cuộn trào ngưng tụ thành một cánh cửa trượt mới.","Năm người đi tới đẩy cửa ra, bên trong là một toa nhỏ chỉ dài hai mét, nhưng không gian được tận dụng đến cực hạn.","Bên trái là bàn bếp, mặt bàn làm bằng vật liệu composite màu xám bạc, gắn hai bếp từ, phần mặt bàn trống bên cạnh, dãy sát tường là kệ gia vị, trong góc là nồi cơm điện.","Phía trên bếp là một chiếc máy hút mùi công suất lớn, bên cạnh có mấy cái tủ.","Bên dưới bàn bếp có hai tầng ngăn kéo, kéo ra xem, tầng thứ nhất là giá dao và thớt, tầng thứ hai để chén bát.","Bên phải là một bộ bồn rửa, cạnh bồn là một chiếc tủ đông nhỏ, dung tích không lớn, nhưng để đồ tươi dùng trong ngày thì đủ.","Phía trên tủ đông là kệ ba tầng, có thể để đồ khô.","Cuối toa là một chiếc bàn ăn gấp, gắn vào rãnh lõm trên tường.","Thẩm Vân Tịch kéo mặt bàn ra, mặt bàn vừa đủ mở rộng được nửa mét, kèm một chiếc ghế gấp.","“Chắc là trang bị cho người chơi đơn lẻ, năm người ngồi không vừa.” Nàng tiếc nuối gập lại.","“Thế chẳng phải là tách bếp với phòng ăn ra sao?” Hắc Hạt Tử nhìn trái nhìn phải, “Nấu ở đây, mang ra ngoài ăn cũng chẳng tốn công.”","Hắn lục lục trong ba lô không gian, thế mà móc ra được một chiếc xe đẩy phục vụ đồ ăn của khách sạn.","“Khá lắm, đến cái này huynh cũng không tha?” Thẩm Vân Tịch buột miệng, đến Ngô Tà bên cạnh cũng giơ ngón cái.","“Vậy sửa lại căn bếp bên ngoài đi.” Giải Vũ Thần đã bắt đầu tính toán, “Cất tủ bếp cũ đi, đặt một bàn ăn, thêm một máy phát điện, mấy đồ điện gia dụng nhỏ kia cũng dùng được.”","Năm người lập tức bắt tay vào làm.","Hắc Hạt Tử và Trương Khởi Linh tháo dãy tủ bếp chữ L phía sau phòng khách cũ, cất vào ba lô không gian.","Trên tủ cạnh bàn ăn, nồi chiên không dầu, máy xay sinh tố, lò nướng, ấm đun nước, cả đống đồ điện nhỏ này cuối cùng cũng dùng được, chiếc máy đồ uống đa năng vừa mua cũng đặt bên cạnh, thứ nó tiêu hao là năng lượng, một viên cầu nguyên liệu dùng được rất lâu.","Lúc Thẩm Vân Tịch ngồi xổm trước ngăn kéo sắp xếp chén bát, Giải Vũ Thần từ phía sau đưa tới một cốc nước đá.","“Nghỉ một lát.” Y ngồi xổm xuống cạnh nàng, tiện tay nhặt mấy chiếc nĩa rơi trên sàn giúp nàng, bỏ vào hộp đựng.","Thẩm Vân Tịch nhận lấy uống hai ngụm, nghiêng đầu nhìn y.","Gương mặt nghiêng của Giải Vũ Thần ở ngay trước mắt, sống mũi thẳng, đường môi gọn gàng dứt khoát, dáng vẻ chuyên chú sắp xếp chén bát đẹp đến mức khiến người không rời mắt được.","Nàng không nhịn được sáp lại, nhanh như chớp chạm nhẹ lên môi y một cái.","Động tác của Giải Vũ Thần khựng lại một nhịp, lúc nghiêng đầu nhìn nàng, trong đôi mắt hoa đào mang theo chút bất ngờ và ý cười.","Nhân lúc xung quanh không có ai, y đuổi theo hôn nàng thật sâu một hồi lâu, mãi đến khi tiếng bước chân của Ngô Tà tới gần mới buông ra.","Thẩm Vân Tịch đứng dậy, vành tai nóng ran, giả vờ như không có chuyện gì đi về phía kệ gia vị.","Ngô Tà đi tới, đặt hai cái nồi lên bếp, lại cất mấy cái nồi khác vào ngăn kéo phía trên.","Y nghiêng đầu nhìn Thẩm Vân Tịch, giọng đầy ý cười: “Lúc cô dùng mà cần lấy nồi, gọi bọn ta lấy cho là được.”","“Không cần huynh nói!” Thẩm Vân Tịch tức tối lườm y một cái.","Bữa tối là Ngô Tà nấu trong toa ăn mới, quyền hạn của căn bếp là mở khóa công tắc năng lượng, đồ bên trong ai cũng dùng được.","Nói là nấu cơm, thật ra chỉ là nấu một nồi cơm, rồi chọn ba món mặn một món canh trong đống món tiệc đã gói mang về, tự tay chỉ xào một đĩa khoai tây sợi xào ớt xanh, mà khoai tây còn là Trương Khởi Linh thái giúp.","Chỉ có mấy món như vậy, y còn cố ý xếp cơm canh và chén đũa lên xe đẩy đẩy ra, rất có cảm giác nghi thức.","Năm người ngồi bên bàn ăn dùng cơm, chỗ ngồi rộng rãi hơn không ít, lại là một cảm giác mới lạ.","“Không tệ, càng ngày càng giống một mái nhà rồi.” Ngô Tà gắp một miếng thịt bỏ vào bát Thẩm Vân Tịch.","“Đúng là không tệ.” Thẩm Vân Tịch cúi đầu lùa một miếng cơm, “Hơn nữa, có các huynh ở đây, đi đâu cũng là nhà.”","Ăn xong dọn dẹp, Thẩm Vân Tịch mở sàn giao dịch xem một chút.","Một người chơi treo bán một túi nhỏ Cát Thời Gian, lượng 10 hạt, giá đòi là một viên Viêm Tinh trung cấp.","Nàng nghĩ ngợi, vẫn đổi lấy, dù sao Viêm Tinh tạm thời dùng không hết.","“Chẳng có hàng gì tốt.” Nàng đóng sàn giao dịch, mở kênh thế giới lướt vài cái, phần lớn là cầu mua thức ăn và nước, còn có người đang bàn về phó bản vé xe đợt hai, hình như là một thế giới phế thổ.","“Bình thường thôi.” Giải Vũ Thần ngồi trên sofa lướt máy tính bảng, “Bây giờ phần lớn người vẫn đang vật lộn ở sân ga cấp thấp, những thứ tốt chúng ta cần thì họ rất khó có được.”","“Đợi chúng ta lên cấp năm, cấp sân ga tăng lên, đồ rơi chắc sẽ tốt hơn.” Thẩm Vân Tịch ngồi xuống sofa, nhắm mắt điều động năng lượng hệ băng trong cơ thể.","Một luồng mát lạnh lan ra từ ngực, chậm rãi chảy theo kinh mạch, ngưng thực hơn trước không chỉ gấp đôi.","Nàng mở mắt, trong lòng bàn tay ngưng tụ một mũi băng nhọn dài, thân băng trong suốt long lanh, bên trong có những đường vân nhỏ li ti tản ra như vết băng nứt, hàn khí ngưng thành một lớp sương trắng mỏng trong lòng bàn tay nàng.","“Kỹ năng hệ băng cấp ba rồi.” Nàng tan mũi băng đi, cử động ngón tay.","“Lên nhanh đấy.” Hắc Hạt Tử dựa vào đầu kia sofa, trong tay xoay một viên Băng Tinh trung cấp, “Không dùng tấm thẻ nâng cấp kia à?”","“Không dùng.” Thẩm Vân Tịch lắc đầu, “Thẻ để dành sau này nâng cấp cao hơn. Hấp thụ băng tinh cày độ thuần thục tuy chậm một chút, nhưng dù sao ngày nào cũng dùng, sau này quái vật để ta đánh trước.”","“Được.” Hắc Hạt Tử ném viên băng tinh cho nàng, nàng đưa tay bắt lấy, nắm trong lòng bàn tay chậm rãi hấp thụ.","Đêm nay đến lượt Ngô Tà và Giải Vũ Thần, lúc nàng đi tắm, Hắc Hạt Tử cứ bám theo đến tận khoang y tế, hôn suốt hơn mười phút, suýt nữa thì súng cướp cò mới chịu buông nàng ra.","Buổi tối hai người kia cũng chẳng yên, Ngô Tà vẫn luôn nhiệt tình bám người, nhưng Giải Vũ Thần giờ cũng chẳng còn rụt rè kiềm chế, lại còn rất giỏi dụ dỗ.","May mà mọi người đều ở đó, hai người họ còn coi như có chừng mực, không thì nàng thật sự đỡ không nổi."]}];
+
+const $ = id => document.getElementById(id);
+const store = {
+  get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } },
+  set(k,v){ try { localStorage.setItem(k,v); } catch(e){} }
+};
+const byN = new Map(CHAPTERS.map((c,i) => [c.n, i]));
+const arcOf = c => c.title.replace(/\s*\([^)]*\)$/, "");
+let size = 1.125, homeScroll = 0, cameFromHome = false;
+
+// table of contents grouped by arc
+(function buildToc(){
+  const groups = [];
+  CHAPTERS.forEach(c => {
+    const a = arcOf(c);
+    if (!groups.length || groups[groups.length-1].arc !== a) groups.push({ arc: a, items: [] });
+    groups[groups.length-1].items.push(c);
+  });
+  $("toc").innerHTML = groups.map((g, gi) => `
+    <details data-arc="${gi}">
+      <summary>${g.arc}<span class="count">Ch. ${g.items[0].n}–${g.items[g.items.length-1].n}</span></summary>
+      <ol>${g.items.map(c => `<li><a href="#chuong-${c.n}" data-n="${c.n}"><span class="n">Chương ${c.n}</span><span>${c.title}</span></a></li>`).join("")}</ol>
+    </details>`).join("");
+})();
+
+(function flatToc(){
+  $("toc").innerHTML = `<div style="border:1px solid var(--line);border-radius:10px;background:var(--paper)"><ol style="border-top:0;padding:.4rem 0">${CHAPTERS.map(c => `<li><a href="#chuong-${c.n}" data-n="${c.n}"><span class="n">Chương ${c.n}</span><span>${c.title}</span></a></li>`).join("")}</ol></div>`;
+})();
+
+let curNotes = [];
+const fnpop = document.createElement("div");
+fnpop.className = "fnpop"; fnpop.hidden = true; fnpop.setAttribute("role", "note");
+document.body.appendChild(fnpop);
+let fnBtn = null;
+function hideFn(){ fnpop.hidden = true; if (fnBtn) fnBtn.setAttribute("aria-expanded", "false"); fnBtn = null; }
+function showFn(btn){
+  if (fnBtn === btn) { hideFn(); return; }
+  hideFn();
+  fnBtn = btn; btn.setAttribute("aria-expanded", "true");
+  fnpop.innerHTML = curNotes[+btn.dataset.i] || "";
+  fnpop.hidden = false;
+  const r = btn.getBoundingClientRect(), w = fnpop.offsetWidth, h = fnpop.offsetHeight;
+  const sx = window.scrollX, sy = window.scrollY, vw = document.documentElement.clientWidth;
+  let left = Math.min(Math.max(16, r.left + r.width / 2 - w / 2), vw - w - 16);
+  let top = r.bottom + 8;
+  if (top + h > window.innerHeight - 8 && r.top - h - 8 > 8) top = r.top - h - 8;
+  fnpop.style.left = (left + sx) + "px"; fnpop.style.top = (top + sy) + "px";
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest && e.target.closest(".fn");
+  if (b) { e.preventDefault(); showFn(b); }
+  else if (!e.target.closest(".fnpop")) hideFn();
+});
+document.addEventListener("keydown", e => { if (e.key === "Escape") hideFn(); });
+window.addEventListener("resize", hideFn);
+function renderChapter(i){
+  const c = CHAPTERS[i];
+  const notes = [];
+  const parts = c.lines.map(l => {
+    const t = l.trim().replace(/\{\{(.+?)\}\}/g, (m, x) => { notes.push(x); return `<button type="button" class="fn" data-i="${notes.length - 1}" aria-expanded="false" aria-label="Chú thích ${notes.length}"><span>${notes.length}</span></button>`; });
+    if (t.startsWith("【")) return `<p class="sys">${t}</p>`;
+    if (t.startsWith("（")) return `<p class="chat">${t}</p>`;
+    if (t === "……") return `<p class="beat">· · ·</p>`;
+    return `<p>${t}</p>`;
+  }).join("");
+  $("article").innerHTML = `<p class="ch-num">Chương ${c.n}</p><h2 class="ch-title">${c.title}</h2><div class="text">${parts}</div>`;
+  $("fabnext").hidden = i === CHAPTERS.length - 1;
+  curNotes = notes; hideFn();
+  $("rlabel").textContent = `Chương ${c.n} · ${c.title}`;
+  $("prev").disabled = i === 0;
+  $("next").disabled = i === CHAPTERS.length - 1;
+  store.set("ttd-last", String(c.n));
+  document.title = `Chương ${c.n} · Đoàn Tàu Cầu Sinh`;
+}
+
+function showHome(){
+  if (typeof TTS !== "undefined" && TTS.on) ttsStop();
+  $("reader").hidden = true; $("home").hidden = false;
+  document.title = "Đoàn Tàu Cầu Sinh: Bàn Tay Vàng Của Tôi Là Bình Tà Hắc Hoa";
+  const last = parseInt(store.get("ttd-last"), 10);
+  const r = $("resume");
+  if (byN.has(last)) { r.textContent = `Đọc tiếp · Chương ${last}`; r.href = `#chuong-${last}`; }
+  else { r.textContent = `Bắt đầu đọc · Chương ${CHAPTERS[0].n}`; r.href = `#chuong-${CHAPTERS[0].n}`; }
+  document.querySelectorAll("#toc a.current").forEach(a => a.classList.remove("current"));
+  const cur = document.querySelector(`#toc a[data-n="${last}"]`);
+  if (cur) { cur.classList.add("current"); const d = cur.closest("details"); if (d) d.open = true; }
+  if (location.hash === "#muc-luc" && cur) cur.scrollIntoView({ block: "center" });
+  else window.scrollTo(0, homeScroll);
+}
+
+function route(){
+  const m = /^#chuong-(\d+)$/.exec(location.hash);
+  if (m && byN.has(+m[1])) {
+    if (!$("home").hidden) homeScroll = window.scrollY;
+    $("home").hidden = true; $("reader").hidden = false;
+    renderChapter(byN.get(+m[1]));
+    window.scrollTo(0, 0);
+    if (TTS.on) { TTS.idx = 0; setTimeout(ttsSpeak, 400); }
+    if (restoreOnce) {
+      restoreOnce = false;
+      let pos = null; try { pos = JSON.parse(store.get("ttd-pos")); } catch(e){}
+      if (pos && pos.n === +m[1] && pos.r > 0) {
+        const go = () => window.scrollTo(0, pos.r * Math.max(0, document.documentElement.scrollHeight - window.innerHeight));
+        go(); setTimeout(go, 150);
+      }
+    }
+  } else {
+    showHome();
+  }
+}
+
+let restoreOnce = false;
+{ const last = parseInt(store.get("ttd-last"), 10);
+  if ((!location.hash || location.hash === "#") && byN.has(last)) { restoreOnce = true; history.replaceState(null, "", "#chuong-" + last); }
+  else if (/^#chuong-\d+$/.test(location.hash) && +location.hash.slice(8) === last) restoreOnce = true; }
+$("resume").addEventListener("click", () => { restoreOnce = true; });
+let saveT = 0;
+function savePos(){
+  if ($("reader").hidden) return;
+  const m = /^#chuong-(\d+)$/.exec(location.hash); if (!m) return;
+  const h = document.documentElement.scrollHeight - window.innerHeight;
+  store.set("ttd-pos", JSON.stringify({ n: +m[1], r: h > 0 ? Math.min(1, window.scrollY / h) : 0 }));
+}
+window.addEventListener("scroll", () => { clearTimeout(saveT); saveT = setTimeout(savePos, 300); }, { passive: true });
+document.addEventListener("visibilitychange", () => { if (document.hidden) savePos(); });
+window.addEventListener("pagehide", savePos);
+
+
+/* ---- Đọc to (text-to-speech của trình duyệt) ---- */
+const TTS = { on: false, idx: 0, tok: 0, rate: 1, lock: null };
+const hasTTS = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+
+try { const r = parseFloat(store.get("ttd-rate")); if (r) TTS.rate = r; } catch(e){}
+$("ttsrate").textContent = TTS.rate + "×";
+function ttsParas(){ return Array.from(document.querySelectorAll("#article .text p")).filter(p => !p.classList.contains("beat")); }
+function ttsText(p){
+  const c = p.cloneNode(true);
+  c.querySelectorAll(".fn").forEach(b => b.remove());
+  c.querySelectorAll("br").forEach(b => b.replaceWith(". "));
+  return c.textContent.replace(/[【】]/g, "").replace(/—+/g, ", ").replace(/…+/g, "...").trim();
+}
+function ttsVoice(){
+  const vs = speechSynthesis.getVoices();
+  let want = ""; try { want = store.get("ttd-voice") || ""; } catch(e){}
+  const w = want && vs.find(v => v.name === want); if (w) return w;
+  return vs.find(v => /^vi/i.test(v.lang) && /google|natural|online/i.test(v.name)) || vs.find(v => /^vi/i.test(v.lang)) || null;
+}
+function ttsMark(p){
+  document.querySelectorAll(".tts-now").forEach(x => x.classList.remove("tts-now"));
+  if (p) { p.classList.add("tts-now"); const r = p.getBoundingClientRect(); if (r.top < 90 || r.bottom > window.innerHeight - 90) p.scrollIntoView({ block: "center", behavior: "smooth" }); }
+}
+function ttsNote(m){
+  let n = document.getElementById("ttsnote");
+  if (!n) { n = document.createElement("div"); n.id = "ttsnote"; n.style.cssText = "position:fixed;left:12px;right:12px;bottom:70px;z-index:50;background:var(--sys-bg);color:var(--fg);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem;font:14px/1.4 var(--ui);"; n.onclick = () => { n.hidden = true; }; document.body.appendChild(n); }
+  n.textContent = m; n.hidden = !m;
+}
+function ttsSpeak(){
+  if (!TTS.on) return;
+  const ps = ttsParas();
+  if (TTS.idx >= ps.length) {
+    const i = curIndex();
+    if (i < CHAPTERS.length - 1) { ttsMark(null); go(CHAPTERS[i + 1].n); } else ttsStop();
+    return;
+  }
+  const p = ps[TTS.idx], t = ttsText(p);
+  if (!t) { TTS.idx++; ttsSpeak(); return; }
+  ttsMark(p);
+  if (speechSynthesis.speaking || speechSynthesis.pending) speechSynthesis.cancel();
+  const my = ++TTS.tok;
+  const u = new SpeechSynthesisUtterance(t);
+  u.lang = "vi-VN"; u.rate = TTS.rate;
+  const v = ttsVoice(); if (v) u.voice = v;
+  u.onend = () => { if (my === TTS.tok && TTS.on) { TTS.idx++; ttsSpeak(); } };
+  u.onstart = () => setTimeout(() => ttsNote(""), 6000);
+  u.onerror = (e) => {
+    if (my !== TTS.tok || !TTS.on) return;
+    const er = e && e.error;
+    if (er === "interrupted" || er === "canceled") return;
+    ttsStop();
+    ttsNote("Không đọc được (" + (er || "lỗi") + "). Máy có thể chưa cài giọng đọc tiếng Việt: vào Cài đặt → Quản lý chung → Chuyển văn bản thành giọng nói, chọn Google và tải giọng Tiếng Việt.");
+  };
+  setTimeout(() => { if (my === TTS.tok && TTS.on && !speechSynthesis.speaking && !speechSynthesis.pending) { ttsStop(); ttsNote("Trình duyệt không phát âm thanh. Máy có thể chưa cài giọng đọc tiếng Việt (Cài đặt → Quản lý chung → Chuyển văn bản thành giọng nói → Google → tải Tiếng Việt), hoặc hãy thử mở link bằng Chrome."); } }, 2500);
+  speechSynthesis.speak(u);
+}
+async function ttsKeepAwake(on){
+  try {
+    if (on && navigator.wakeLock && !TTS.lock) TTS.lock = await navigator.wakeLock.request("screen");
+    else if (!on && TTS.lock) { await TTS.lock.release(); TTS.lock = null; }
+  } catch(e){ TTS.lock = null; }
+}
+function ttsStart(){
+  TTS.on = true; $("tts").setAttribute("aria-pressed", "true"); $("tts").textContent = "⏸";
+  const ps = ttsParas();
+  const top = ps.findIndex(p => p.getBoundingClientRect().bottom > 80);
+  TTS.idx = window.scrollY < 50 ? 0 : Math.max(0, top);
+  { const vs = speechSynthesis.getVoices(); const vi = vs.filter(v => /^vi/i.test(v.lang));
+    ttsNote("Chẩn đoán: " + vs.length + " giọng trong máy, " + vi.length + " giọng tiếng Việt" + (vi[0] ? " (" + vi[0].name + ")" : "") + ". Nếu không thấy gì thay đổi thì trình duyệt đang chặn âm thanh."); }
+  ttsKeepAwake(true); ttsSpeak();
+}
+function ttsStop(){
+  TTS.on = false; TTS.tok++; if (hasTTS) speechSynthesis.cancel();
+  $("tts").setAttribute("aria-pressed", "false"); $("tts").textContent = "🔊";
+  ttsMark(null); ttsKeepAwake(false);
+}
+$("tts").addEventListener("click", () => { if (!hasTTS) { alert("Trình duyệt này không hỗ trợ đọc to. Hãy thử mở bằng Chrome/Safari bản mới."); return; } if (TTS.on) ttsStop(); else ttsStart(); });
+$("ttsvoice").addEventListener("click", () => {
+  if (!hasTTS) return;
+  const vi = speechSynthesis.getVoices().filter(v => /^vi/i.test(v.lang));
+  if (!vi.length) { ttsNote("Máy chưa có giọng tiếng Việt nào. Hãy cài thêm trong Cài đặt → Chuyển văn bản thành giọng nói, hoặc mở bằng Microsoft Edge (có giọng Việt tự nhiên)."); return; }
+  const cur = ttsVoice(); const k = (vi.findIndex(v => cur && v.name === cur.name) + 1) % vi.length;
+  store.set("ttd-voice", vi[k].name);
+  ttsNote("Giọng " + (k + 1) + "/" + vi.length + ": " + vi[k].name + (vi.length === 1 ? " (máy chỉ có 1 giọng Việt; Microsoft Edge thường có giọng tự nhiên hơn)" : ""));
+  if (TTS.on) ttsSpeak();
+});
+$("ttsrate").addEventListener("click", () => {
+  const rs = [1, 1.25, 1.5, 0.85]; TTS.rate = rs[(rs.indexOf(TTS.rate) + 1) % rs.length];
+  $("ttsrate").textContent = TTS.rate + "×"; store.set("ttd-rate", String(TTS.rate));
+  if (TTS.on) ttsSpeak();
+});
+if (hasTTS) speechSynthesis.onvoiceschanged = () => {};
+document.addEventListener("visibilitychange", () => { if (!document.hidden && TTS.on) ttsKeepAwake(true); });
+
+function go(n){ location.hash = "chuong-" + n; }
+function curIndex(){ const m = /^#chuong-(\d+)$/.exec(location.hash); return m ? byN.get(+m[1]) : 0; }
+
+$("fabnext").addEventListener("click", () => { const i = curIndex(); if (i < CHAPTERS.length-1) go(CHAPTERS[i+1].n); });
+$("prev").addEventListener("click", () => { const i = curIndex(); if (i > 0) go(CHAPTERS[i-1].n); });
+$("next").addEventListener("click", () => { const i = curIndex(); if (i < CHAPTERS.length-1) go(CHAPTERS[i+1].n); });
+$("tocbtn").addEventListener("click", () => { location.hash = "muc-luc"; });
+$("back").addEventListener("click", () => {
+  if (history.length > 1) history.back(); else location.hash = "muc-luc";
+});
+function setSize(s){ size = Math.max(.95, Math.min(1.5, s)); document.documentElement.style.setProperty("--size", size + "rem"); store.set("ttd-size", String(size)); }
+$("smaller").addEventListener("click", () => setSize(size - .0625));
+$("bigger").addEventListener("click", () => setSize(size + .0625));
+document.addEventListener("keydown", e => {
+  if ($("reader").hidden) return;
+  if (e.key === "ArrowLeft") $("prev").click();
+  if (e.key === "ArrowRight") $("next").click();
+});
+
+const sz = parseFloat(store.get("ttd-size")); if (!isNaN(sz)) setSize(sz);
+window.addEventListener("hashchange", route);
+route();
+</script>
+
+</body></html>
