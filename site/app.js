@@ -304,8 +304,8 @@
       title: `Chương ${n} · ${s.title}`,
       html: `
       <div class="r-top"><div class="inner">
-        <a class="btn" href="${link({ p: 'story', id: s.id })}" aria-label="Về trang truyện">←</a>
-        <span class="label">${esc(s.title)}</span>
+        <a class="btn home" href="?" aria-label="Về trang chủ" title="Trang chủ">⌂</a>
+        <a class="label" href="${link({ p: 'story', id: s.id })}" title="Về trang truyện">${esc(s.title)}</a>
         <button type="button" data-fs="-1" aria-label="Chữ nhỏ hơn">A−</button>
         <button type="button" data-fs="1" aria-label="Chữ to hơn">A+</button>
         <button type="button" data-theme-toggle aria-label="Đổi sáng/tối">◐</button>
