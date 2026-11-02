@@ -129,6 +129,15 @@ nguyên văn (`?` = chưa biết) — gặp chữ Hán thật trong bản gốc 
 | 幽灵系 / 亡灵玩家 | hệ u linh / người chơi vong linh (gọi là **nó**) |
 | 治愈药剂 | thuốc chữa trị |
 | 2.0版本自用款邪种 | tà chủng tự dùng phiên bản 2.0 (của KTN) |
+| 祂 | **Ngài** (đại từ cho Tà Thần/cổ thần); lời nội tâm của Ngài để trong `{…}` (một ngoặc nhọn) |
+| 净华天御凰 | Tịnh Hoa Thiên Ngự Hoàng (dạng phượng hoàng lửa trắng, điều khiển năng lượng trời đất) |
+| 混乱阵营 / 守序阵营 / 混乱秩序阵营 | phe Hỗn Loạn / phe Trật Tự / phe Hỗn Loạn Trật Tự; 守序者 = kẻ thủ tự |
+| 神格 / 美之权柄 / 魅之权柄 / 爱之权柄 / 诸天权柄 | thần cách / Quyền bính Cái Đẹp / Quyền bính Mị Hoặc / Quyền bính Tình Yêu / quyền bính chư thiên |
+| 古族 / 古神 / 母系 / 繁衍权柄 | Cổ tộc / cổ thần / mẫu hệ / quyền bính sinh sôi |
+| 深渊 / 时空长河 / 复眼 | vực sâu / dòng sông thời không / mắt kép (Tà Thần nhện) |
+| 果冻 / 小鱼 / 灵兽空间 | Thạch / Cá Con / không gian linh thú |
+| 二级庇护所 / 云朵沙发 / 白晶手串 | nơi trú ẩn cấp hai / ghế sofa mây / chuỗi hạt thủy tinh trắng |
+| 海兽人 / 领空兽人 | thú nhân biển / thú nhân bầu trời |
 | 喜 / 玎 / 承 | Hỷ (mẹ Kelles–Salman) / Đinh (bà ngoại, người đứng đầu) / Thừa (tên Hỷ đặt cho KTN) |
 | 族长 | tộc trưởng (nữ, "bà") |
 | 阿爹 / 阿母 | cha / mẹ (Arent tự xưng "cha" với KTN, gọi Kelles là "cậu") |
@@ -139,5 +148,6 @@ nguyên văn (`?` = chưa biết) — gặp chữ Hán thật trong bản gốc 
 1–448 (bản gốc của chủ repo).
 449–452 (đợt 2): KTN nuốt cục năng lượng Tà Thần, biết thế giới là bãi săn của Tà Thần, "thức tỉnh" giả không gian trồng trọt (gạo hạt tròn) để nuốt ô nhiễm trong thú nhân; Kelles phát hiện giống lương thực của thư chủ cao cấp hơn.
 453–458: người chơi bị hồn tộc truy sát; KTN hóa hình á thành niên, gieo tà chủng 2.0 cho nhà Hỷ; đi chợ thú, gặp thú nhân đột phá cấp bảy hóa phân chi Tà Thần.
+459–464: KTN hóa Tịnh Hoa Thiên Ngự Hoàng rồi dạng Tà Thần, nuốt thể ô nhiễm, nhận Quyền bính Cái Đẹp; Tà Thần nhện để ý cô; từ biệt Kelles; dưới biển gặp phân thân cổ thần bạch tuộc nhận cô là đồng tộc mẫu hệ.
 
-Bản gốc: chủ repo đưa file TXT cả truyện (mã GBK, chuyển bằng ); dòng tiêu đề chương dính vào cuối dòng trước và cuối mỗi chương thường mất 1–2 chữ — tự bù cho tròn câu. Bản tới ch.474 (473 = Đông giá cầu sinh hoàn, 474 = Tinh hệ (9)).
+Bản gốc: chủ repo đưa file TXT cả truyện (mã GBK, chuyển bằng `iconv -f GB18030 -t UTF-8`); dòng tiêu đề chương dính vào cuối dòng trước và cuối mỗi chương thường mất 1–2 chữ — tự bù cho tròn câu. Bản tới ch.474 (473 = Đông giá cầu sinh hoàn, 474 = Tinh hệ (9)).
