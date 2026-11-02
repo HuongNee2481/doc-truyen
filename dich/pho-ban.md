@@ -21,7 +21,7 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 - Chương cuối một phó bản: `Tên phó bản (hoàn)` (bản cũ có lẫn "Hoàn"/"hết" — từ nay dùng "(hoàn)" chữ thường).
 - Giữa các phó bản là `Hiện thực (n)` (thế giới thật) hoặc `Tinh hệ (n)` (từ ch.388, thời ở tinh hệ/tầng nhà ở);
   số đếm của mỗi nhóm nối tiếp lần trước, VD Tinh hệ (5) → … → Tinh hệ (6).
-- Nhóm hiện tại: **Đông giá cầu sinh** — ch.448 là (21), nên ch.449 = "Đông giá cầu sinh (22)".
+- Nhóm hiện tại: **Tinh hệ** — ch.474 là (9), nên ch.475 = "Tinh hệ (10)". Ch.473 = "Đông giá cầu sinh (hoàn)".
 - Đã có: Hải dương cầu sinh, Hiện thực (đến 59), Cầu sinh trên quốc lộ, Cầu sinh trên mây, Đào thoát zombie,
   Cầu sinh lưu đày, Cầu sinh rừng mưa, Cầu sinh quỷ dị, Vĩnh dạ, Nữ tôn, Chuyến tàu điểm cuối,
   Cầu sinh hàng không, Tinh hệ (đến 8), Kính tự do, Thiên ngoại thứ tự, Đông giá cầu sinh.
@@ -37,6 +37,7 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 - Kênh người chơi (chat): `【Tên ID: nội dung】`, ẩn danh là `【???-Ẩn danh: …】` (cách dùng ở các chương gần đây).
   Bản cũ (đến ~ch.230) dùng `（Tên: …）` và `(…)` cho bình luận livestream — chỉ dùng lại nếu bản gốc dùng khung （）.
 - Phản ứng câm kiểu `Tên: ……`, `Tên: ……?` giữ nguyên.
+- Lời tác giả (作者的话: xin lỗi, báo lịch đăng…) chen đầu chương thì bỏ, chỉ dịch phần sau "正文".
 - Chú thích: `{{原文: giải thích}}` hoặc `{{Từ dịch (原文): giải thích}}`, đặt ngay sau từ/câu cần chú thích
   — cho meme mạng, thành ngữ, điển cố, chơi chữ. Chữ Hán chỉ được nằm trong `{{…}}`.
 
@@ -138,6 +139,17 @@ nguyên văn (`?` = chưa biết) — gặp chữ Hán thật trong bản gốc 
 | 果冻 / 小鱼 / 灵兽空间 | Thạch / Cá Con / không gian linh thú |
 | 二级庇护所 / 云朵沙发 / 白晶手串 | nơi trú ẩn cấp hai / ghế sofa mây / chuỗi hạt thủy tinh trắng |
 | 海兽人 / 领空兽人 | thú nhân biển / thú nhân bầu trời |
+| 湮灭权柄 / 星域 / 尧米 | quyền bính Tiêu Diệt / tinh vực / yottamét |
+| 小妻子 | cô vợ nhỏ (cổ thần gọi KTN; cổ thần xưng **ta – em**) |
+| 亲亲 | "thân ơi" (giọng hệ thống/bán hàng); cổ thần hiểu thành "hôn hôn" |
+| 卤蛋 / 主系统 | quả trứng kho (cổ thần gọi hệ thống chính) / hệ thống chính (khối cầu sáng lớn) |
+| 破壳期 / 幼生期 / 本源核心 | thời kỳ phá vỏ / thời kỳ ấu sinh / hạch bản nguyên |
+| 古族的馈赠之戒 | Nhẫn Tặng Phẩm Của Cổ Tộc |
+| 传奇的幸存者 | danh hiệu Kẻ Sống Sót Truyền Kỳ |
+| 空白契约卷轴 / 命运之丝 | Quyển Trục Khế Ước Trống / Sợi Tơ Vận Mệnh (vũ khí mới) |
+| 班主 | Ban Chủ — ID mới của KTN, người chơi thứ tự E-009 |
+| 冀丰 | Ký Phong (người chơi sói, sống sót, lên cấp K) |
+| 竞技场 / 传送台 | đấu trường (từ tầng 26) / đài dịch chuyển (1 triệu kim tệ/tầng) |
 | 喜 / 玎 / 承 | Hỷ (mẹ Kelles–Salman) / Đinh (bà ngoại, người đứng đầu) / Thừa (tên Hỷ đặt cho KTN) |
 | 族长 | tộc trưởng (nữ, "bà") |
 | 阿爹 / 阿母 | cha / mẹ (Arent tự xưng "cha" với KTN, gọi Kelles là "cậu") |
@@ -149,5 +161,7 @@ nguyên văn (`?` = chưa biết) — gặp chữ Hán thật trong bản gốc 
 449–452 (đợt 2): KTN nuốt cục năng lượng Tà Thần, biết thế giới là bãi săn của Tà Thần, "thức tỉnh" giả không gian trồng trọt (gạo hạt tròn) để nuốt ô nhiễm trong thú nhân; Kelles phát hiện giống lương thực của thư chủ cao cấp hơn.
 453–458: người chơi bị hồn tộc truy sát; KTN hóa hình á thành niên, gieo tà chủng 2.0 cho nhà Hỷ; đi chợ thú, gặp thú nhân đột phá cấp bảy hóa phân chi Tà Thần.
 459–464: KTN hóa Tịnh Hoa Thiên Ngự Hoàng rồi dạng Tà Thần, nuốt thể ô nhiễm, nhận Quyền bính Cái Đẹp; Tà Thần nhện để ý cô; từ biệt Kelles; dưới biển gặp phân thân cổ thần bạch tuộc nhận cô là đồng tộc mẫu hệ.
+465–473: cổ thần (bản thể) nặn da người đến cứu KTN khỏi Tà Thần nhện, truyền năng lượng, tặng nhẫn rồi đi; KTN sống sót, nhận danh hiệu, thành người chơi thứ tự E-009, ID Ban Chủ, vũ khí Sợi Tơ Vận Mệnh. 473 = Đông giá cầu sinh (hoàn).
+474: Tinh hệ (9) — chuyển lên tầng 26, vào đấu trường. Bản gốc chủ repo đưa mới tới 474 (đang ra), tiếp theo là ch.475 = Tinh hệ (10).
 
 Bản gốc: chủ repo đưa file TXT cả truyện (mã GBK, chuyển bằng `iconv -f GB18030 -t UTF-8`); dòng tiêu đề chương dính vào cuối dòng trước và cuối mỗi chương thường mất 1–2 chữ — tự bù cho tròn câu. Bản tới ch.474 (473 = Đông giá cầu sinh hoàn, 474 = Tinh hệ (9)).
