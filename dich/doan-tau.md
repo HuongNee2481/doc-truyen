@@ -68,6 +68,17 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 | 野怪 / 精英怪 | quái hoang / quái tinh anh |
 | 火蜥斷尾替身 | thế thân Đuôi Đứt Hỏa Tích |
 | 霍玲 | Hoắc Linh |
+| 末日安全堡壘系統 / 堡壘 | Hệ thống Pháo đài An toàn Tận thế / pháo đài |
+| 寒潮 / 獸潮 | đợt rét / thú triều |
+| 白熊首領 / 首領 | gấu trắng đầu lĩnh / đầu lĩnh |
+| 編製 | biên chế |
+| 全息面板 | bảng toàn ký |
+| 冰封站 | Trạm Băng Phong |
+| 保溫核心 / 醫療核心 | lõi giữ nhiệt / lõi y tế |
+| 熔岩穿山甲 / 雪狼 | tê tê dung nham / sói tuyết |
+| 自動熔爐 / 防禦塔 | lò luyện tự động / tháp phòng ngự |
+| 虛空共鳴聖鏈 | Thánh Liên Cộng Hưởng Hư Không |
+| 周洋 | Chu Dương |
 | 平安站 / 白樺站 / 冰原站 | Trạm Bình An / Trạm Bạch Hoa / Trạm Băng Nguyên |
 | 世界頻道 / 交易行 / 玩家面板 | kênh thế giới / sàn giao dịch / bảng người chơi |
 | 新手禮包 / 基礎生存車廂 | gói quà tân thủ / toa sinh tồn cơ bản |
@@ -84,5 +95,5 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 
 ## Đã dịch
 
-118–136 (ch.136: Giải Vũ Thần hôn Vân Tịch sau khi nàng và Tiểu Ca ngâm suối nước nóng; nàng hỏi sao y đặc biệt để ý Tiểu Ca. Nơi trú ẩn sắp kích hoạt hệ thống phụ trợ).
+118–150 (ch.150: cả năm người đeo Thánh Liên Cộng Hưởng Hư Không lưu sẵn kỹ năng; pháo đài đã lên cấp 2, kênh thế giới bắt đầu đông người chơi). 143–150 do subagent dịch.
 Chương cũ (dịch bằng subagent) nằm trong `truyen/doan-tau-dot-0.html`. Đủ 1–117. Với người chơi khác, Vân Tịch xưng "tôi", gọi "anh/cô".
