@@ -294,10 +294,12 @@
     const next = i < s.chapters.length - 1 ? s.chapters[i + 1].n : null;
     if (next != null) getChapter(s.id, next).catch(() => {}); // tải trước chương sau
 
+    // mở lại đúng chương đang đọc dở (tải lại trang, mở lại app, bấm "Đọc tiếp"…) → quay về chỗ cũ
     const prevPos = getHistory()[s.id];
-    saveHistory(s.id, { id: s.id, title: s.title, author: s.author, n, chapTitle: c.title, index: i + 1, total: s.chapters.length, r: 0 });
+    const resume = prevPos && prevPos.n === n && prevPos.r > 0 ? prevPos.r : 0;
+    saveHistory(s.id, { id: s.id, title: s.title, author: s.author, n, chapTitle: c.title, index: i + 1, total: s.chapters.length, r: resume });
     const body = chapterHtml(c.content);
-    state.reader = { id: s.id, prev, next, notes: body.notes, resume: p.resume && prevPos && prevPos.n === n ? prevPos.r : 0 };
+    state.reader = { id: s.id, prev, next, notes: body.notes, resume };
 
     const go = (to, txt) => to == null ? `<span class="btn disabled">${txt}</span>` : `<a class="btn" href="${link({ p: 'read', id: s.id, n: to })}">${txt}</a>`;
     return {
@@ -382,11 +384,16 @@
           if (q) document.querySelectorAll('#tocBody details').forEach(d => { d.open = true; });
         });
       }
-      if (reading && state.reader.resume) {
-        const r = state.reader.resume;
-        const toPos = () => window.scrollTo(0, r * Math.max(0, document.documentElement.scrollHeight - window.innerHeight));
-        toPos();
-        setTimeout(toPos, 200);
+      if (reading) {
+        const reader = state.reader;
+        const toPos = () => window.scrollTo(0, reader.resume * Math.max(0, document.documentElement.scrollHeight - window.innerHeight));
+        if (reader.resume) toPos();
+        // đợi phông chữ tải xong (chiều cao trang đổi) rồi cuộn lại lần nữa, sau đó mới bắt đầu lưu vị trí
+        setTimeout(() => {
+          if (state.reader !== reader) return;
+          if (reader.resume) toPos();
+          reader.ready = true;
+        }, 250);
       }
     } catch (err) {
       if (my !== token) return;
@@ -401,17 +408,22 @@
   }
   window.addEventListener('popstate', render);
 
-  // lưu vị trí đang đọc (tỉ lệ cuộn) để "Đọc tiếp" mở đúng chỗ
+  // lưu vị trí đang đọc (tỉ lệ cuộn) để mở lại đúng chỗ
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
+  function savePos() {
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    if (state.reader && state.reader.ready && max > 0) saveHistory(state.reader.id, { r: +(window.scrollY / max).toFixed(4) });
+  }
   let saveT = 0;
   window.addEventListener('scroll', () => {
     if (!state.reader) return;
     clearTimeout(saveT);
-    const id = state.reader.id;
-    saveT = setTimeout(() => {
-      const max = document.documentElement.scrollHeight - window.innerHeight;
-      if (state.reader && state.reader.id === id && max > 0) saveHistory(id, { r: +(window.scrollY / max).toFixed(4) });
-    }, 400);
+    saveT = setTimeout(savePos, 300);
   }, { passive: true });
+  // thoát app / chuyển tab ngay sau khi cuộn → lưu luôn, không đợi
+  document.addEventListener('visibilitychange', () => { if (document.hidden) { clearTimeout(saveT); savePos(); } });
+  window.addEventListener('pagehide', () => { clearTimeout(saveT); savePos(); });
   window.addEventListener('resize', hideFn);
 
   document.addEventListener('click', e => {
