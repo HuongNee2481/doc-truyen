@@ -1,0 +1,384 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Phó Bản Cầu Sinh: Mỹ Nhân Một Lòng Cẩu Mạng</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Be+Vietnam+Pro:wght@400;500;600&display=swap">
+<style>
+/* Layout: one quiet reading column on a sea-glass ground; chapter switcher on top, prev/next at the foot */
+:root {
+  --bg: #f3f6f5;
+  --paper: #fbfcfb;
+  --fg: #1f2a2c;
+  --muted: #5c6c6f;
+  --line: #d6e0df;
+  --accent: #0f6b74;
+  --gold: #a57a1c;
+  --sys-bg: #e6f0ef;
+  --chat-bg: #f0efe9;
+  --display: "Playfair Display", "Times New Roman", serif;
+  --body: "Literata", Georgia, "Times New Roman", serif;
+  --ui: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --size: 1.125rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1719; --paper: #121d20; --fg: #dbe5e4; --muted: #8fa3a5; --line: #26363a;
+    --accent: #5fc1c9; --gold: #d9b45e; --sys-bg: #16292d; --chat-bg: #1b2324; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1719; --paper: #121d20; --fg: #dbe5e4; --muted: #8fa3a5; --line: #26363a;
+  --accent: #5fc1c9; --gold: #d9b45e; --sys-bg: #16292d; --chat-bg: #1b2324; color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--body); }
+.wrap { max-width: 42rem; margin: 0 auto; padding-inline: 20px; padding-block: 2.5rem 3rem; }
+[hidden] { display: none !important; }
+.eyebrow { font-family: var(--ui); font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+h1 { font-family: var(--display); font-weight: 600; font-size: clamp(1.9rem, 6vw, 2.75rem); line-height: 1.15; margin: 0; text-wrap: balance; }
+h1 em { font-style: italic; font-weight: 500; color: var(--accent); }
+.byline { font-family: var(--ui); font-size: .875rem; color: var(--muted); margin: 0; }
+.blurb { font-size: 1rem; line-height: 1.7; color: var(--muted); margin: .5rem 0 0; }
+.blurb p { margin: 0 0 .5rem; }
+header.book { display: grid; gap: .5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--line); }
+button, a.btn { font: inherit; font-family: var(--ui); color: var(--fg); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: .5rem .8rem; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: .35rem; }
+button:hover, a.btn:hover { border-color: var(--accent); }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+button:disabled { opacity: .35; cursor: default; border-color: var(--line); }
+a.btn.primary, button.primary { background: var(--accent); color: var(--paper); border-color: var(--accent); font-weight: 600; }
+.resume { margin-top: 1.25rem; }
+/* table of contents */
+.toc { margin-top: 1.75rem; display: grid; gap: .75rem; font-family: var(--ui); }
+.toc h2 { font-family: var(--display); font-size: 1.4rem; margin: 0 0 .25rem; }
+.toc details { border: 1px solid var(--line); border-radius: 10px; background: var(--paper); }
+.toc summary { cursor: pointer; padding: .8rem 1rem; font-weight: 600; display: flex; justify-content: space-between; gap: .5rem; list-style: none; }
+.toc summary::-webkit-details-marker { display: none; }
+.toc summary::after { content: "▾"; color: var(--muted); }
+.toc details[open] summary::after { content: "▴"; }
+.toc summary .count { color: var(--muted); font-weight: 400; font-size: .85rem; margin-left: auto; }
+.toc ol { list-style: none; margin: 0; padding: 0 0 .4rem; border-top: 1px solid var(--line); }
+.toc li a { display: flex; gap: .75rem; padding: .55rem 1rem; color: var(--fg); text-decoration: none; font-size: .95rem; }
+.toc li a:hover { background: var(--sys-bg); }
+.toc li a .n { color: var(--gold); font-variant-numeric: tabular-nums; min-width: 4.5rem; font-weight: 600; }
+.toc li a.current { background: var(--sys-bg); }
+.fn { background: none; border: 0; padding: 0 .15em; margin: 0; cursor: pointer; font: inherit; line-height: 0; vertical-align: super; }
+.fn span { display: inline-block; color: var(--accent); font-family: var(--ui); font-size: .7em; font-weight: 600; line-height: 1; padding: .15em .4em; border-radius: 99px; background: var(--sys-bg); }
+.fn:hover span, .fn[aria-expanded="true"] span { background: var(--accent); color: var(--bg); }
+.fnpop { position: absolute; z-index: 20; max-width: min(22rem, calc(100vw - 32px)); background: var(--bg); color: var(--fg); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 8px 28px rgba(0,0,0,.22); padding: .7rem .9rem; font-family: var(--ui); font-size: .88rem; line-height: 1.55; }
+.fnpop[hidden] { display: none; }
+.notes { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line); font-family: var(--ui); font-size: .85rem; color: var(--muted); line-height: 1.6; }
+.notes h3 { font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; margin: 0 0 .5rem; }
+.notes ol { margin: 0; padding-left: 1.2rem; }
+.note { font-family: var(--ui); font-size: .8rem; color: var(--muted); text-align: center; margin-top: 2rem; }
+/* reader */
+.topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+.topbar .inner { max-width: 42rem; margin: 0 auto; padding: .5rem 20px; display: flex; align-items: center; gap: .5rem; font-family: var(--ui); font-size: .85rem; }
+.topbar .label { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--muted); }
+.topbar button { padding: .35rem .6rem; }
+.text .tts-now { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
+#tts[aria-pressed="true"] { background: var(--accent); color: #fff; }
+#ttsrate { min-width: 3rem; }
+#fabnext { position: fixed; right: 10px; top: 50%; transform: translateY(-50%); width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--line); background: var(--bg); color: var(--accent); font-size: 26px; line-height: 1; padding: 0 0 3px; opacity: .55; z-index: 20; box-shadow: 0 1px 6px rgba(0,0,0,.25); cursor: pointer; }
+#fabnext:active { opacity: 1; }
+#fabnext[hidden] { display: none; }
+.reader .wrap { padding-block: 1.75rem 6.5rem; }
+.ch-num { font-family: var(--ui); font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin: 0 0 .35rem; }
+h2.ch-title { font-family: var(--display); font-weight: 600; font-size: 1.75rem; margin: 0 0 1.75rem; text-wrap: balance; }
+.text { font-size: var(--size); line-height: 1.85; }
+.text p { margin: 0 0 1em; }
+.text .sys { font-family: var(--ui); font-size: .92em; line-height: 1.65; background: var(--sys-bg); border-left: 3px solid var(--accent); padding: .6rem .9rem; margin: 0 0 .5em; border-radius: 0 6px 6px 0; }
+.text .sys + p:not(.sys) { margin-top: 1em; }
+.text .chat { font-family: var(--ui); font-size: .9em; line-height: 1.6; background: var(--chat-bg); padding: .45rem .8rem; margin: 0 0 .35em; border-radius: 6px; }
+.text .chat + p:not(.chat) { margin-top: 1em; }
+.text .beat { text-align: center; color: var(--muted); letter-spacing: .3em; }
+.bottombar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background: var(--paper); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.bottombar .inner { max-width: 42rem; margin: 0 auto; padding: .55rem 16px; display: grid; grid-template-columns: 1fr auto 1fr; gap: .5rem; font-family: var(--ui); font-size: .9rem; }
+.bottombar button { width: 100%; padding: .6rem .3rem; white-space: nowrap; font-size: .85rem; }
+.bottombar .toc-btn { width: auto; padding-inline: .8rem; }
+</style>
+
+<div id="home">
+  <div class="wrap">
+    <header class="book">
+      <div class="eyebrow">Ngôn tình · Vô hạn lưu · Cầu sinh</div>
+      <h1>Phó Bản Cầu Sinh: <em>Mỹ Nhân Một Lòng Cẩu Mạng</em></h1>
+      <p class="byline">Nguyên tác: 求生副本：美人她一心苟命 · Tác giả: Dĩ Hiểu (已晓) · Bản dịch tiếng Việt</p>
+      <div class="blurb">
+        <p>Ngủ một giấc tỉnh dậy, cả thế giới rơi vào phó bản cầu sinh.</p>
+        <p>Mở màn là sinh tồn trên biển, vậy mà Khương Trường Ninh đến một chiếc cần câu cũng không có…</p>
+        <p>May sao cô được liên kết với hệ thống Kẻ Ngụy Trang. Để sống sót, cô nàng yếu đuối, đen đủi nhưng thật sự rất xinh đẹp ấy lặng lẽ nhắm tới con đường ôm đùi.</p>
+        <p>Boss phó bản, người chơi đại lão… Ngụy trang làm thổ dân phó bản, gặp người nói tiếng người, gặp quỷ nói tiếng quỷ, bịa chuyện mở miệng là ra… Đừng hoảng, vẫn còn cứu được!</p>
+        <p>Mục tiêu: cẩu mạng. Sống sót chính là thắng lợi!</p>
+      </div>
+      <div class="resume"><a id="resume" class="btn primary" href="#"></a></div>
+    </header>
+    <section class="toc" aria-label="Mục lục">
+      <h2 id="muc-luc-title">Mục lục</h2>
+      <div id="toc"></div>
+    </section>
+    <p class="note">Bản dịch được đăng với sự đồng ý của tác giả. Các chương tiếp theo sẽ được cập nhật dần.</p>
+  </div>
+</div>
+
+<div id="reader" class="reader" hidden>
+  <div class="topbar"><div class="inner">
+    <button id="back" type="button" aria-label="Quay lại">←</button>
+    <span class="label" id="rlabel"></span>
+    <button id="tts" type="button" aria-label="Nghe đọc chương" aria-pressed="false">🔊</button>
+    <button id="ttsrate" type="button" aria-label="Tốc độ đọc">1×</button>
+    <button id="ttsvoice" type="button" aria-label="Đổi giọng đọc">🗣</button>
+    <button id="smaller" type="button" aria-label="Chữ nhỏ hơn">A−</button>
+    <button id="bigger" type="button" aria-label="Chữ to hơn">A+</button>
+  </div></div>
+  <div class="wrap"><article id="article" aria-live="polite"></article></div>
+  <button id="fabnext" type="button" aria-label="Chương sau">›</button>
+  <nav class="bottombar" aria-label="Chuyển chương"><div class="inner">
+    <button id="prev" type="button">← Chương trước</button>
+    <button id="tocbtn" class="toc-btn" type="button" aria-label="Mục lục">☰ Mục lục</button>
+    <button id="next" type="button">Chương sau →</button>
+  </div></nav>
+</div>
+
+<script>
+const CHAPTERS = [{"n":449,"title":"Đông giá cầu sinh (22)","lines":["Cứ tưởng cục năng lượng này dưới sự mài mòn của Ô Thánh Hồn mà trụ được bảy tám giây đã là ngoan cường lắm rồi.","Không ngờ——","Không phải, thế này mà vẫn không chết?","Thế này có đúng không?","Nhìn miếng năng lượng……à, cục năng lượng sắp bị Ô Thánh Hồn – kẻ chỉ hận không thể hóa thân thành cây cán bột – cán bẹp thành vỏ sủi cảo thượng hạng, Khương Trường Ninh thừa nhận, cái thứ nhỏ bé này thật sự đã thu hút sự chú ý tuyệt đối của cô!","Miếng năng lượng: ……","Đợt này là nó chủ quan rồi, nó không né……{{我大意了，没有闪: \"tôi chủ quan rồi, không né\", câu nói nổi tiếng của \"đại sư\" võ thuật Mã Bảo Quốc sau khi bị hạ gục trong vài giây; thành meme chỉ việc thua vì khinh địch.}}đau đau đau!","Ngao ngao ngao!","Sai rồi sai rồi, nó sai rồi còn không được sao?","Xin lỗi!","Xin lỗi được chưa!","Mắt thấy lớp ngụy trang ngoài cùng của mình sắp bị cây ô bạo lực này vò cho phai màu, miếng năng lượng cũng chẳng màng gì khác nữa——","Chạy trước rồi tính!","Ô Thánh Hồn: ……?","Có lúc thật ra cũng phiền lắm, cái loại như ngươi——","Rốt cuộc lấy đâu ra tự tin mà còn nghĩ mình có thể thoát khỏi tay nó vậy?","Đáng ghét thật——","Hachi năng lượng, cái tên nhà ngươi, bị đánh ra nông nỗi này rồi mà còn dám ở đó coi thường Ô Thánh Hồn nó sao?{{哈基能量: nhại câu meme \"可恶啊，哈基米…\" (Đáng ghét thật, Hachimi…) – \"Hachimi\" là cách gọi đùa mèo cưng trên mạng Trung Quốc; ở đây ghép thành \"Hachi năng lượng\" để giễu cục năng lượng.}}","Ha ha ha ha——","Vậy thì ngươi gan lắm.","Ô Thánh Hồn tức đến bật cười.","Mặt ô của nó khẽ rung một cái——","Trong nháy mắt, cục năng lượng vừa bật dậy lần nữa như bị một bàn tay vô hình bóp chặt.","Cục năng lượng: ……?","Không phải chứ, lại nữa?","Bây giờ nó thật sự có cảm giác hôm nay mình sẽ \"rắc\" một cái rồi toi luôn ở đây!","Đừng mà!{{补药哇: cách nói nũng nịu của \"不要啊\" (đừng mà).}}","Cục năng lượng bắt đầu liều chết phản kháng——","Nhưng!","Ô Thánh Hồn: ……?","Gan của tên này đúng là béo múp míp!","Ô kiếm trước đó còn chưa rút ra cũng bị Ô Thánh Hồn rút ra, nó vung ô kiếm chém thẳng xuống thật mạnh.","Cục năng lượng: ……?","Làm gì vậy hả!","Rốt cuộc ngươi muốn làm gì!","Nhưng nó không phản kháng nổi——cứ thế trơ mắt nhìn mình bị băm thành thịt vụn, cục năng lượng: ……","Có lúc thật sự bất lực lắm……","Cục năng lượng bất lực cứ thế nhìn lớp ngụy trang của mình dưới sự giày vò này bắt đầu phai màu hoàn toàn——","Gần như ngay lập tức nhận ra điều bất thường, Khương Trường Ninh: ?","Khoan đã!","Kinh ngạc nhìn chút khí tức lộ ra sau khi lớp ngụy trang trắng tinh kia phai đi……","Cảm giác này, cường độ này……","Thông rồi, tất cả đều thông rồi!","Mọi thứ đều nối lại được với nhau rồi!","Cô đã bảo sao cục năng lượng này lại quỷ dị như vậy, còn ngoan cường như vậy!","Hóa ra là năng lượng đến từ Tà Thần!","Ha ha ha ha——","Khương Trường Ninh cười, lần này là cười thật.","Không phải chứ, Tà Thần là bắp cải trắng ngoài chợ à?","Sao cảm giác như đi đâu cũng gặp được vậy?","Thế này có đúng không?","Thôi, cười một cái là được rồi——","U u nhìn chằm chằm cục năng lượng dù đã bị Ô Thánh Hồn băm thành thịt vụn mà vẫn ngoan cường cố gắng hồi phục lại……","\"Là thế này, tôi thấy giữa chúng ta có chút hiểu lầm——\"","Khương Trường Ninh thử bắt tay giảng hòa với cục năng lượng này——giảng hòa rồi thì không được về chỗ bản thể mách lẻo đâu nhé, mọi người cùng vui vẻ cả……coi như chưa có chuyện gì xảy ra.","Nào ngờ, câu này lọt vào tai cục năng lượng……","Chịu thua rồi?","Đây là biết không giết được nó nên thức thời chịu thua?","Cục năng lượng trước đó còn mềm oặt muốn làm cháu chắt bỗng chốc vênh váo hẳn lên.","Cũng phải!","Ai nhìn thấy bản chất ô nhiễm của nó mà còn có thể không sợ nó chứ?","Sợ hãi đi, run rẩy đi, hối hận vì tất cả những gì đã làm với nó đi!","\"Hết hy vọng đi, ta tuyệt đối sẽ không tha thứ cho ngươi!\"","Khương Trường Ninh: ……","Ồ.","Vậy thì hết cách rồi.","Cô đổi mặt trong một giây.","Khoảnh khắc tiếp theo——dưới ánh nhìn không thể tin nổi của nguồn năng lượng……","cô nuốt chửng cục năng lượng này trong một ngụm.","Đúng vậy, Ô Thánh Hồn không giết được, đâu có nghĩa là ấu tể Tà Thần không ăn được!","Đồ rượu mời không uống lại thích uống rượu phạt!","Nhận ra người này thật sự có thể nuốt chửng mình, cục năng lượng: ???","Khương Trường Ninh mặc kệ cục năng lượng lúc này cuối cùng cũng bắt đầu khóc lóc kêu gào, thành tâm thành ý xin tha.","Đắc tội thì cũng đắc tội rồi, chắc chắn phải đè chết hẳn chứ!","Luyện hóa trong chớp mắt!","Chỉ có luyện hóa thành của mình mới yên tâm nhất!","Tuyệt đối không thể để cục năng lượng này mang bất kỳ thông tin nào về cô về cho bản thể của nó!"]},{"n":450,"title":"Đông giá cầu sinh (23)","lines":["Tin xấu:","Sau khi luyện hóa cục năng lượng này, bản thể Tà Thần chắc chắn sẽ biết mình mất đi một cục năng lượng.","Tin tốt……thì hơi nhiều.","Trước hết, bản thể Tà Thần chưa chắc đã để ý vì sao một chút xíu xiu xiu xiu……xíu năng lượng như vậy lại biến mất, dù sao lượng này thật sự quá nhỏ, giống như con người sẽ không nhận ra mình rụng tóc lúc nào——trừ người tóc đặc biệt ít……(không phải).","Thứ hai——","Muỗi nhỏ mấy cũng là thịt, bù được một ngụm năng lượng thì là một ngụm năng lượng.","Cuối cùng……","Cô thu được rất nhiều thông tin về thế giới này từ trong đó!","Những thứ lẻ tẻ thì chẳng có gì đáng nói, điều cần chú ý là——","Thế giới này hiện tại là bãi săn dự bị của Tà Thần.","Ngay cả vùng trời băng đất tuyết này cũng là do dấu ấn của Tà Thần mà thành.","Năng lượng của thú nhân sở dĩ bạo động cũng là do ô nhiễm mà Tà Thần hòa vào trời đất sau khi xâm nhập.","Thứ con cái thức tỉnh hoàn toàn không phải không gian trồng trọt gì cả, mà là——năng lượng ký sinh của tà chủng đang ký sinh.","Chúng ngụy trang thành năng lượng thức tỉnh, tạo ra ảo giác khai mở không gian trồng trọt, thực chất……","Cái gọi là khai mở không gian trồng trọt chính là ký sinh trên thức hải tinh thần của con cái, con cái có tinh thần lực càng mạnh thì tà chủng ký sinh được càng nhiều.","Tà chủng sinh trưởng kết trái đều cần nuốt tinh thần lực của con cái, năng lượng tinh thuần sẽ thông qua tà chủng truyền về bản thể Tà Thần, phần bị đào thải sẽ trở thành cái gọi là \"quả lương thực\".","Qua một lượt sàng lọc này của tà chủng, tất cả \"quả lương thực\" thực ra đều là vật ngưng kết mang theo năng lượng ô nhiễm.","Ăn những lương thực này, nhìn thì như làm dịu năng lượng bạo động, thực ra nguyên lý căn bản là nguồn ô nhiễm trong cơ thể thú nhân đang dung hợp với năng lượng ô nhiễm trong lương thực.","Nguồn ô nhiễm trong cơ thể thú nhân có năng lượng đồng nguồn để ăn thì chắc chắn chẳng còn thời gian quậy ký chủ của mình nữa.","Con cái ở đây sở dĩ bước vào tuổi trưởng thành nhanh như vậy, cũng như tuổi thọ chênh lệch với con đực lớn đến thế——cũng không thoát khỏi liên quan đến sự ký sinh của tà chủng.","Nói đơn giản thì thế giới này, từ sinh linh đến hạt nhân thế giới, thực ra đều là lương thực dự trữ của Tà Thần.","Còn vì sao thế giới này vẫn tồn tại……","Bản thể kia hiện giờ khả năng cao không phải đang ăn thì cũng đang ngủ đông tiêu hóa sau bữa trước.","Tóm lại……","Tính theo thời gian ăn hoặc ngủ đông của Tà Thần——nếu không có gì bất ngờ, cho đến khi cô rời khỏi thế giới này, chắc đều không dính dáng gì đến Tà Thần kia.","Vậy thì không có vấn đề gì.","Ở nơi có Tà Thần và thần minh, bạn gọi cô là Tiểu Khương thì Khương Trường Ninh không bắt bẻ bạn, nhưng chỉ cần cấp thần không xuất hiện——","thì Khương Trường Ninh khuyên bạn tốt nhất nên khách sáo với cô một chút.","Dĩ nhiên, chắc ăn được thì vẫn phải chắc ăn.","Tà Thần gì đó Khương Trường Ninh thấy còn xa mình lắm, nhưng——nghi thức thức tỉnh thì ở ngay trước mắt đấy!","Bây giờ tà chủng ký sinh đã bị nuốt rồi, cô muốn thức tỉnh thì……","Hình như cũng không phải là không có cách?","Công dụng quan trọng nhất của lương thực chẳng phải là làm dịu năng lượng bạo động của thú nhân sao?","Cái này còn không đơn giản à?","Ai mà chẳng là Tà Thần chứ?","Đáng ghét!","Đừng coi ấu tể không phải là Tà Thần chứ!","Tuy vì bản nguyên Tà Thần khác nhau nên cô không thể dùng sức mạnh Tà Thần của mình để dung hợp, nhưng!","Nhưng đâu có ai nói năng lượng Tà Thần của cô không thể nuốt những ô nhiễm đó!","Năng lượng ô nhiễm đâu phải tà chủng, nuốt rồi cũng chẳng có cơ hội đi mách Tà Thần……","Khoan đã, nếu đã như vậy thì——","Mắt Khương Trường Ninh sáng rực lên.","Là thế này, cô có một ý tưởng vô cùng lịch sự……"]},{"n":451,"title":"Đông giá cầu sinh (24)","lines":["Là thế này——","Bạn xem nhé, thức ăn phải tươi mới ngon.","Hơn nữa có những Tà Thần giàu đến mức còn để dành được lương thực dự trữ, còn có những Tà Thần thì sao?","Có những Tà Thần thậm chí còn vì lo năng lượng tiêu hao không cung cấp đủ, sợ tự hút cạn chính mình, mà ngay cả chuyển sang thân phận Tà Thần cũng phải tính toán thời gian, đếm từng giây……","Loại Tà Thần này thậm chí còn có thể là ấu tể đấy!","Haiz!","Cái thế giới bất công này!","Khương Trường Ninh muốn khóc hai tiếng cho những bé con Tà Thần đáng thương ấy luôn rồi!","Cho nên……","Ấu tể ăn vụng……à không phải, ăn vụng gì chứ!","Nói khó nghe thật!","Chuyện sinh tồn sao có thể dùng chữ \"vụng\" để hình dung?","Cái đó gọi là bảo vệ thế giới……à không phải, là hy vọng tương lai của vực sâu!","Cuối cùng cũng sắp xếp xong logic, Khương Trường Ninh cứ thế vô cùng nỗ lực——\"thức tỉnh\" một không gian cung cấp đủ khẩu phần cho khoảng năm thú đực.","Con số này không ít, nhưng cũng không quá nhiều, chỉ có thể nói là thiên phú trung bình khá.","Không phải Khương Trường Ninh không muốn \"thức tỉnh\" nhiều hơn, chủ yếu là……","Thứ này tốn năng lượng của dạng ấu tể Tà Thần của cô đấy!","Khác với tà chủng, năng lượng Tà Thần của cô không thể hút tinh thần lực của chính cô để ngưng kết giống lương thực, nên Khương Trường Ninh đều chọn cách bám năng lượng của mình lên giống lương thực để ngụy trang.","Trước khi biết lợi nhuận đầu tư, Khương Trường Ninh không dám dốc hết năng lượng dự trữ của dạng ấu tể Tà Thần, chỉ có thể nói là——lời thì lời đậm, không lời thì cũng lỗ nổi.","Làm người không được tham, làm ấu tể Tà Thần càng không được——làm ấu tể Tà Thần mà tham, dù là thu hút sự chú ý của Tà Thần khác hay của chính thần khác……","thì là chết thật đấy!","Còn chọn giống lương thực nào——","Khương Trường Ninh đưa mắt nhìn thứ nhiều nhất trong không gian——lúa nước.","Lúa nước đại khái chia làm hai loại lớn, đó là——lúa hạt dài và lúa hạt tròn.","Lúa hạt dài cho hạt gạo thon dài, hợp làm cơm chiên.","Lúa hạt tròn cho hạt gạo tròn ngắn, hợp nấu cháo hơn.","Trong không gian Khương Trường Ninh có cả hai loại, cô so lượng tồn kho một chút, cuối cùng chọn gạo hạt tròn, loại có số lượng nhiều hơn một chút.","Sau khi ước lượng số lượng mình nên nộp ra——","Khương Trường Ninh đã thành công lừa trót lọt.","Hỷ vui đến mức ngay tại chỗ làm luôn động tác giơ Vua Sư Tử lên trước mặt tộc trưởng.{{Ám chỉ cảnh khỉ Rafiki giơ sư tử con Simba lên cao trước muôn thú trong phim \"Vua Sư Tử\".}}","\"Đây là Thừa nhà ta đấy!\"","Tộc trưởng: ……","Tuy là vậy nhưng——hiểu được, hiểu được.","Mong ngóng bao nhiêu năm, kết quả chính mình không cần đẻ, hai đứa lỗ……hai đứa con trai ngoan ra ngoài một chuyến đã mang về một ấu tể cái thiên phú không tệ——","Đổi lại là bà, bà cũng vui được như thế.","Trước khi đi, tộc trưởng liếc nhìn Arent đã vui đến mức không giữ nổi hình người——con đực này đúng là may mắn……","Đúng không?","Arent cảm thấy, nếu bạn biết chuyện của anh ta thì bạn cũng nhất định sẽ thấy anh ta may mắn!","Dù sao thì——","Nhìn bé con chủ động đặt một nắm lúa vào tay mình, Arent bày tỏ, còn gì để nói nữa?","Cái mạng này của cha cho con luôn!","Thực ra là sau khi xác nhận Arent là \"cha ruột\", cảm nhận được khí tức ô nhiễm nồng đậm trên người Arent nên chọn dùng Arent để thử khả năng nuốt chửng của năng lượng Tà Thần trước, Khương Trường Ninh: ……","Không hiểu sao, cứ cảm thấy lương tâm mình hình như đang tro tàn bùng cháy lại?","Ảo giác, nhất định là ảo giác!","Cô lại vùi đầu vào đuôi mình.","Đúng vậy, cô vẫn còn là một đứa trẻ mà!","……","Nắm lương thực đó, ngay tối hôm ấy Arent đã lấy ra một phần, nấu một bát cháo.","Giây tiếp theo khi năng lượng vào cơ thể——","Nguồn ô nhiễm lập tức xúm lại chuẩn bị ăn lấy ăn để: ……?","Hình như……","Có gì đó không đúng?","Nhưng luồng năng lượng này rõ ràng là đồng loại với chúng……khoan đã?","Sao luồng năng lượng này hình như đang——nuốt chửng chúng?","Chấn động phát hiện mình thật sự đang bị nuốt, nguồn ô nhiễm: !!!","Đệt!","Diễn biến này không đúng, kịch bản đâu có viết thế này!","Nhưng——Khương Trường Ninh bày tỏ, trước kia là trước kia, bây giờ là bây giờ, kịch bản bây giờ viết như thế đấy!","Nuốt!","Cứ nuốt là xong!","Từng luồng nguồn ô nhiễm tinh thuần hóa thành năng lượng bắt đầu đổ vào dạng Tà Thần của Khương Trường Ninh——","Khi Arent thở phào một hơi dài, năng lượng Tà Thần của Khương Trường Ninh cũng vừa giải quyết xong nguồn ô nhiễm tiềm ẩn trong người anh ta.","Nói sao nhỉ——","Chỉ một Arent đã giúp Khương Trường Ninh thu hồi gần một phần năm số năng lượng đã tiêu hao.","Mà đây mới chỉ là cấp bốn.","Nếu là cấp năm thì……","Đôi mắt Khương Trường Ninh vùi trong đuôi sáng rực lên.","Thì——","Triển vọng đầu tư và tỷ suất lợi nhuận đã xác định, có thể bắt đầu kiếm……à, không phải, là vui vẻ giúp người rồi.","Nghĩ vậy, Khương Trường Ninh lại vốc một vuốt lương thực định nhét cho Kelles——","Người ta không nhận?","Hả?","Ánh mắt nghi hoặc chậm rãi đưa lên——nhìn thẳng vào đáy mắt dịu dàng của Kelles.","\"Giống lương thực đợt đầu không thể đem cho hết được……\"","Hơn nữa——thân là thư chủ mà nghĩ đến chuyện chia cho anh, thú phu thứ nhất, một phần giống lương thực đợt đầu……","Có tấm lòng này, anh đã rất vui rồi.","Cảm thấy ánh mắt Kelles rất kỳ lạ, Khương Trường Ninh: ……?","Thôi, kệ đi, biết đâu mắt tên này bị chuột rút thì sao?","Bây giờ quan trọng nhất——là phải để tên chiến sĩ cấp năm này ăn giống lương thực vào đã!","Cấp năm……theo độ khó thăng cấp mà nói, cấp bốn với cấp năm đúng là một trời một vực, lượng ô nhiễm tích trữ trong người……","Cũng chỉ vì bây giờ cô phải giả làm ấu tể cái, không thì Khương Trường Ninh thật sự muốn nhét thẳng một nắm giống lương thực vào miệng tên này!","Vì thế——","Khương Trường Ninh bắt đầu cố đẩy giống lương thực của mình sang lần nữa.","Kelles: ……?","Trước đó đã từ chối một lần rồi, lần này lại từ chối nữa thì……","Cúi đầu nhìn ánh mắt mong chờ của Khương Trường Ninh, chóp tai Kelles khẽ động——","Cũng……cũng không tiện phụ tấm lòng của thư chủ như vậy……","Dưới ánh mắt như gặp ma của Salman——anh khẽ hắng giọng, không dám nhìn vào mắt Khương Trường Ninh, đưa tay nhận lấy.","Rồi——","\"Đa tạ thư chủ, tôi……tôi sẽ cất giữ cẩn thận.\"","Đây là giống lương thực đợt đầu của thư chủ đấy……","Đang mong Kelles bây giờ, lập tức, ngay tức khắc đi nấu cơm rồi ăn cơm, Khương Trường Ninh: ……?","Không phải chứ, ông anh?","Cô tức đến mức bật ra khỏi tấm da thú——không bật ra được hẳn.","Bởi vì Hỷ mắt nhanh tay lẹ đã ấn Khương Trường Ninh lại.","\"Thừa, không được, con vẫn còn là bé con, bên ngoài lạnh lắm với con……\"","Lần đầu tiên Hỷ nhíu mày với Khương Trường Ninh, vẻ mặt đầy không tán thành.","Arent rõ ràng cũng đứng cùng phe với Hỷ.","\"Con muốn làm gì thì nói với cha, cha làm thay con là được——\"","Bé con nhỏ xíu thế này ít nhất phải nuôi qua một tháng mới giữ được!","Khương Trường Ninh: ……","Được.","\"Chít——\"","Nghe tiếng cáo kêu——đám tộc Sói không hiểu gì đều mặt mày ngơ ngác……nhìn về phía người duy nhất ở đây nghe hiểu, Arent của hồ tộc.","Arent nghe hiểu: ……","Là thế này, bây giờ tâm trạng của ông bố già khá phức tạp.","Bởi vì——","Anh ta bực bội lườm Kelles một cái.","Được lợi còn làm bộ……","\"Con gái tôi muốn cậu ăn giống lương thực của nó……\"","Haiz!","Nhớ năm xưa, không, ngay cả trước đây cũng vậy, trước đây lấy đâu ra con cái chu đáo thế này chứ!","Arent sắp nhìn không vừa mắt đám thú phu tương lai của con gái mình rồi——đứa nào đứa nấy, đúng là đến để hưởng phúc!","Nhất là cái tên Kelles kia!","Trẻ tuổi đã lên cấp năm thì không nói, còn vớ được thư chủ chu đáo như con gái anh ta……","Chuyện tốt gì cũng bị tên này chiếm hết!","\"……Vậy thì chúc mừng hai thằng nhóc các cậu nhé——\"","Anh ta bày tỏ vô cùng bình tĩnh (thật ra không hề).","Kelles: ……","Tuy giọng điệu câu này nghe không thân thiện lắm, nhưng nội dung lời nói lại bù đắp rất tốt cho điều đó.","Thì……","Ánh mắt anh lóe lên——quan tâm mình đến vậy sao?","\"Cảm, cảm ơn thư chủ, tôi……tôi đi nấu.\"","Dưới ánh mắt mong chờ long lanh của Khương Trường Ninh——Kelles như bị mặt đất làm bỏng chân, mang theo nắm gạo đó quay người đến một đống lửa trại còn trống, treo dụng cụ nấu nướng lên.","Tốt tốt tốt!","Cuối cùng cũng bắt đầu hiểu tính cáo rồi!","Đúng lúc Khương Trường Ninh đang mong chờ phản hồi năng lượng từ chiến sĩ cấp năm——","Bên cạnh……","Ánh mắt Salman nhìn Khương Trường Ninh khựng lại.","Không có……phần của mình sao?","Cũng phải——anh chỉ là thú phu thứ hai, anh trai là thú phu thứ nhất, có đãi ngộ đặc biệt đó mới là bình thường……"]},{"n":452,"title":"Đông giá cầu sinh (25)","lines":["Không hề biết bên kia có một thú phu thứ hai đã tự dỗ xong chính mình, Khương Trường Ninh đang nghiêm túc nhìn chằm chằm Kelles ăn gạo của mình——","Tốt!","Ăn rồi!","Cảm nhận từng sợi năng lượng bắt đầu truyền về, Khương Trường Ninh mới cuối cùng yên tâm.","Lúc ấy——","Hỷ và Đinh, cùng các thú phu của hai con cái ấy đã thấy cảnh này, đang ôm đuôi mình cười rúc rích bên cạnh.","Ối chà!","Xem kìa, thanh mai trúc mã đúng là khác hẳn!","Chỉ có——","Arent: ……?","Ha ha.","Anh ta dùng ánh mắt soi mói nhìn Kelles từ trên xuống dưới một lượt——chậc!","……","Nhưng Kelles, trung tâm của mọi ánh nhìn……lại chẳng hề để tâm đến những người khác.","Anh——đang kinh ngạc vì sự thay đổi trong cơ thể mình.","Khác với thú nhân cấp bốn, thú nhân cấp năm có thể câu thông năng lượng trời đất, vì vậy Kelles nhạy bén hơn với những thay đổi trong cơ thể mình.","Trước đây sau khi ăn giống lương thực do không gian trồng trọt của mẹ sản xuất, anh cảm nhận được năng lượng nóng nảy trong cơ thể được xoa dịu.","Nhưng gạo ăn hôm nay……","Không giống xoa dịu, ngược lại giống——trấn áp?","Không, cũng không thể nói là trấn áp, giống như……có một luồng năng lượng mới xông vào, rồi nuốt chửng gốc rễ của sự bạo động?","Nhưng sao có thể như vậy?","Là——","Mình cảm nhận sai rồi?","Kelles bất giác lùa miếng cơm cuối cùng trong bát gỗ vào miệng……","Anh không sai!","Chính là cảm giác như bị thứ gì đó nuốt chửng!","Kelles thử tìm luồng năng lượng đang lượn vòng trong cơ thể mình, thứ đã nuốt chửng gốc rễ bạo động……","Nhưng mà——","Tin tốt: tìm thấy rồi, tuy rất yếu nhưng thật sự có.","Tin xấu——luồng năng lượng này có vẻ rất cao cấp, ít nhất cao cấp hơn năng lượng anh khống chế được, nên cục năng lượng này đối với anh về cơ bản là……","chẳng thèm để ý đến anh.","Ừm……","Vậy thì cao lãnh thật……","Kelles khựng lại, cuối cùng——","\"Tôi ra ngoài một chút.\"","Anh đè nén sự sốt ruột trong lòng, trước khi đi vẫn nhẹ giọng lên tiếng về phía Khương Trường Ninh.","Đúng vậy, nếu đã không lay động được luồng năng lượng này……","thì lấy năng lượng bên ngoài thử xem!","Sau khi đi ra một khoảng, Kelles đứng giữa gió tuyết——bắt đầu theo cách tu luyện thường ngày, hấp thu năng lượng du ly giữa trời đất.","Năng lượng trời đất đi vào cơ thể anh, lúc hòa vào thân thể, luồng năng lượng trước đó còn lạnh nhạt với anh lập tức như được khơi dậy tính tích cực, ào ào lao về phía năng lượng mới vào.","Nếu phải hình dung thì……","Kelles chỉ nghĩ được đến——lưới lọc.","Nhưng cụ thể lọc thứ gì……Kelles lại không cảm nhận được, anh chỉ biết đúng là có thứ gì đó đã bị tách ra khỏi năng lượng trời đất này.","Nhưng nhiều hơn……","Chưa đợi Kelles thí nghiệm tiếp, sợi năng lượng mới trong cơ thể kia——đã cạn kiệt hoàn toàn.","Kelles: ……","Anh khẽ nhìn số giống lương thực chưa ăn hết trong không gian bạn sinh của mình——cuối cùng vẫn không lấy ra.","Thôi được.","Có thể đợi lần sau năng lượng của anh có dấu hiệu bất ổn rồi thử tiếp.","Anh nhắm mắt lại——dù thí nghiệm chưa làm xong hoàn toàn, Kelles cũng đã có thể xác nhận một điều.","Giống lương thực mà không gian trồng trọt của thư chủ trồng ra, so với các giống lương thực khác……","là khác biệt!","Hay nói cách khác——","là giống lương thực cao cấp hơn!","Nghĩ thông điểm này, sau khi quay về, Kelles chọn lúc Khương Trường Ninh \"ngủ\" để đem phát hiện này nói cho những người khác.","Hỷ: !!!","Bà đã bảo Thừa nhà bà từ nhỏ đã là đứa có tiền đồ mà!","Khương Trường Ninh: ……","Ngày đầu tiên đã bị phát hiện rồi sao……","Ha ha."]}];
+const $ = id => document.getElementById(id);
+const store = {
+  get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } },
+  set(k,v){ try { localStorage.setItem(k,v); } catch(e){} }
+};
+const byN = new Map(CHAPTERS.map((c,i) => [c.n, i]));
+const arcOf = c => c.title.replace(/\s*\([^)]*\)$/, "");
+let size = 1.125, homeScroll = 0, cameFromHome = false;
+
+// table of contents grouped by arc
+(function buildToc(){
+  const groups = [];
+  CHAPTERS.forEach(c => {
+    const a = arcOf(c);
+    if (!groups.length || groups[groups.length-1].arc !== a) groups.push({ arc: a, items: [] });
+    groups[groups.length-1].items.push(c);
+  });
+  $("toc").innerHTML = groups.map((g, gi) => `
+    <details data-arc="${gi}">
+      <summary>${g.arc}<span class="count">Ch. ${g.items[0].n}–${g.items[g.items.length-1].n}</span></summary>
+      <ol>${g.items.map(c => `<li><a href="#chuong-${c.n}" data-n="${c.n}"><span class="n">Chương ${c.n}</span><span>${c.title}</span></a></li>`).join("")}</ol>
+    </details>`).join("");
+})();
+
+let curNotes = [];
+const fnpop = document.createElement("div");
+fnpop.className = "fnpop"; fnpop.hidden = true; fnpop.setAttribute("role", "note");
+document.body.appendChild(fnpop);
+let fnBtn = null;
+function hideFn(){ fnpop.hidden = true; if (fnBtn) fnBtn.setAttribute("aria-expanded", "false"); fnBtn = null; }
+function showFn(btn){
+  if (fnBtn === btn) { hideFn(); return; }
+  hideFn();
+  fnBtn = btn; btn.setAttribute("aria-expanded", "true");
+  fnpop.innerHTML = curNotes[+btn.dataset.i] || "";
+  fnpop.hidden = false;
+  const r = btn.getBoundingClientRect(), w = fnpop.offsetWidth, h = fnpop.offsetHeight;
+  const sx = window.scrollX, sy = window.scrollY, vw = document.documentElement.clientWidth;
+  let left = Math.min(Math.max(16, r.left + r.width / 2 - w / 2), vw - w - 16);
+  let top = r.bottom + 8;
+  if (top + h > window.innerHeight - 8 && r.top - h - 8 > 8) top = r.top - h - 8;
+  fnpop.style.left = (left + sx) + "px"; fnpop.style.top = (top + sy) + "px";
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest && e.target.closest(".fn");
+  if (b) { e.preventDefault(); showFn(b); }
+  else if (!e.target.closest(".fnpop")) hideFn();
+});
+document.addEventListener("keydown", e => { if (e.key === "Escape") hideFn(); });
+window.addEventListener("resize", hideFn);
+function renderChapter(i){
+  const c = CHAPTERS[i];
+  const notes = [];
+  const parts = c.lines.map(l => {
+    const t = l.trim().replace(/\{\{(.+?)\}\}/g, (m, x) => { notes.push(x); return `<button type="button" class="fn" data-i="${notes.length - 1}" aria-expanded="false" aria-label="Chú thích ${notes.length}"><span>${notes.length}</span></button>`; });
+    if (t.startsWith("【")) return `<p class="sys">${t}</p>`;
+    if (t.startsWith("（")) return `<p class="chat">${t}</p>`;
+    if (t === "……") return `<p class="beat">· · ·</p>`;
+    return `<p>${t}</p>`;
+  }).join("");
+  $("article").innerHTML = `<p class="ch-num">Chương ${c.n}</p><h2 class="ch-title">${c.title}</h2><div class="text">${parts}</div>`;
+  $("fabnext").hidden = i === CHAPTERS.length - 1;
+  curNotes = notes; hideFn();
+  $("rlabel").textContent = `Chương ${c.n} · ${c.title}`;
+  $("prev").disabled = i === 0;
+  $("next").disabled = i === CHAPTERS.length - 1;
+  store.set("pbcs-last", String(c.n));
+  document.title = `Chương ${c.n} · Phó Bản Cầu Sinh`;
+}
+
+function showHome(){
+  if (typeof TTS !== "undefined" && TTS.on) ttsStop();
+  $("reader").hidden = true; $("home").hidden = false;
+  document.title = "Phó Bản Cầu Sinh: Mỹ Nhân Một Lòng Cẩu Mạng";
+  const last = parseInt(store.get("pbcs-last"), 10);
+  const r = $("resume");
+  if (byN.has(last)) { r.textContent = `Đọc tiếp · Chương ${last}`; r.href = `#chuong-${last}`; }
+  else { r.textContent = `Bắt đầu đọc · Chương ${CHAPTERS[0].n}`; r.href = `#chuong-${CHAPTERS[0].n}`; }
+  document.querySelectorAll("#toc a.current").forEach(a => a.classList.remove("current"));
+  const cur = document.querySelector(`#toc a[data-n="${last}"]`);
+  if (cur) { cur.classList.add("current"); cur.closest("details").open = true; }
+  if (location.hash === "#muc-luc" && cur) cur.scrollIntoView({ block: "center" });
+  else window.scrollTo(0, homeScroll);
+}
+
+function route(){
+  const m = /^#chuong-(\d+)$/.exec(location.hash);
+  if (m && byN.has(+m[1])) {
+    if (!$("home").hidden) homeScroll = window.scrollY;
+    $("home").hidden = true; $("reader").hidden = false;
+    renderChapter(byN.get(+m[1]));
+    window.scrollTo(0, 0);
+    if (TTS.on) { TTS.idx = 0; setTimeout(ttsSpeak, 400); }
+    if (restoreOnce) {
+      restoreOnce = false;
+      let pos = null; try { pos = JSON.parse(store.get("pbcs-pos")); } catch(e){}
+      if (pos && pos.n === +m[1] && pos.r > 0) {
+        const go = () => window.scrollTo(0, pos.r * Math.max(0, document.documentElement.scrollHeight - window.innerHeight));
+        go(); setTimeout(go, 150);
+      }
+    }
+  } else {
+    showHome();
+  }
+}
+
+let restoreOnce = false;
+{ const last = parseInt(store.get("pbcs-last"), 10);
+  if ((!location.hash || location.hash === "#") && byN.has(last)) { restoreOnce = true; history.replaceState(null, "", "#chuong-" + last); }
+  else if (/^#chuong-\d+$/.test(location.hash) && +location.hash.slice(8) === last) restoreOnce = true; }
+$("resume").addEventListener("click", () => { restoreOnce = true; });
+let saveT = 0;
+function savePos(){
+  if ($("reader").hidden) return;
+  const m = /^#chuong-(\d+)$/.exec(location.hash); if (!m) return;
+  const h = document.documentElement.scrollHeight - window.innerHeight;
+  store.set("pbcs-pos", JSON.stringify({ n: +m[1], r: h > 0 ? Math.min(1, window.scrollY / h) : 0 }));
+}
+window.addEventListener("scroll", () => { clearTimeout(saveT); saveT = setTimeout(savePos, 300); }, { passive: true });
+document.addEventListener("visibilitychange", () => { if (document.hidden) savePos(); });
+window.addEventListener("pagehide", savePos);
+
+
+/* ---- Đọc to (text-to-speech của trình duyệt) ---- */
+const TTS = { on: false, idx: 0, tok: 0, rate: 1, lock: null };
+const hasTTS = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+
+try { const r = parseFloat(store.get("pbcs-rate")); if (r) TTS.rate = r; } catch(e){}
+$("ttsrate").textContent = TTS.rate + "×";
+function ttsParas(){ return Array.from(document.querySelectorAll("#article .text p")).filter(p => !p.classList.contains("beat")); }
+function ttsText(p){
+  const c = p.cloneNode(true);
+  c.querySelectorAll(".fn").forEach(b => b.remove());
+  c.querySelectorAll("br").forEach(b => b.replaceWith(". "));
+  return c.textContent.replace(/[【】]/g, "").replace(/—+/g, ", ").replace(/…+/g, "...").trim();
+}
+function ttsVoice(){
+  const vs = speechSynthesis.getVoices();
+  let want = ""; try { want = store.get("pbcs-voice") || ""; } catch(e){}
+  const w = want && vs.find(v => v.name === want); if (w) return w;
+  return vs.find(v => /^vi/i.test(v.lang) && /google|natural|online/i.test(v.name)) || vs.find(v => /^vi/i.test(v.lang)) || null;
+}
+function ttsMark(p){
+  document.querySelectorAll(".tts-now").forEach(x => x.classList.remove("tts-now"));
+  if (p) { p.classList.add("tts-now"); const r = p.getBoundingClientRect(); if (r.top < 90 || r.bottom > window.innerHeight - 90) p.scrollIntoView({ block: "center", behavior: "smooth" }); }
+}
+function ttsNote(m){
+  let n = document.getElementById("ttsnote");
+  if (!n) { n = document.createElement("div"); n.id = "ttsnote"; n.style.cssText = "position:fixed;left:12px;right:12px;bottom:70px;z-index:50;background:var(--sys-bg);color:var(--fg);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem;font:14px/1.4 var(--ui);"; n.onclick = () => { n.hidden = true; }; document.body.appendChild(n); }
+  n.textContent = m; n.hidden = !m;
+}
+function ttsSpeak(){
+  if (!TTS.on) return;
+  const ps = ttsParas();
+  if (TTS.idx >= ps.length) {
+    const i = curIndex();
+    if (i < CHAPTERS.length - 1) { ttsMark(null); go(CHAPTERS[i + 1].n); } else ttsStop();
+    return;
+  }
+  const p = ps[TTS.idx], t = ttsText(p);
+  if (!t) { TTS.idx++; ttsSpeak(); return; }
+  ttsMark(p);
+  if (speechSynthesis.speaking || speechSynthesis.pending) speechSynthesis.cancel();
+  const my = ++TTS.tok;
+  const u = new SpeechSynthesisUtterance(t);
+  u.lang = "vi-VN"; u.rate = TTS.rate;
+  const v = ttsVoice(); if (v) u.voice = v;
+  u.onend = () => { if (my === TTS.tok && TTS.on) { TTS.idx++; ttsSpeak(); } };
+  u.onstart = () => setTimeout(() => ttsNote(""), 6000);
+  u.onerror = (e) => {
+    if (my !== TTS.tok || !TTS.on) return;
+    const er = e && e.error;
+    if (er === "interrupted" || er === "canceled") return;
+    ttsStop();
+    ttsNote("Không đọc được (" + (er || "lỗi") + "). Máy có thể chưa cài giọng đọc tiếng Việt: vào Cài đặt → Quản lý chung → Chuyển văn bản thành giọng nói, chọn Google và tải giọng Tiếng Việt.");
+  };
+  setTimeout(() => { if (my === TTS.tok && TTS.on && !speechSynthesis.speaking && !speechSynthesis.pending) { ttsStop(); ttsNote("Trình duyệt không phát âm thanh. Máy có thể chưa cài giọng đọc tiếng Việt (Cài đặt → Quản lý chung → Chuyển văn bản thành giọng nói → Google → tải Tiếng Việt), hoặc hãy thử mở link bằng Chrome."); } }, 2500);
+  speechSynthesis.speak(u);
+}
+async function ttsKeepAwake(on){
+  try {
+    if (on && navigator.wakeLock && !TTS.lock) TTS.lock = await navigator.wakeLock.request("screen");
+    else if (!on && TTS.lock) { await TTS.lock.release(); TTS.lock = null; }
+  } catch(e){ TTS.lock = null; }
+}
+function ttsStart(){
+  TTS.on = true; $("tts").setAttribute("aria-pressed", "true"); $("tts").textContent = "⏸";
+  const ps = ttsParas();
+  const top = ps.findIndex(p => p.getBoundingClientRect().bottom > 80);
+  TTS.idx = window.scrollY < 50 ? 0 : Math.max(0, top);
+  { const vs = speechSynthesis.getVoices(); const vi = vs.filter(v => /^vi/i.test(v.lang));
+    ttsNote("Chẩn đoán: " + vs.length + " giọng trong máy, " + vi.length + " giọng tiếng Việt" + (vi[0] ? " (" + vi[0].name + ")" : "") + ". Nếu không thấy gì thay đổi thì trình duyệt đang chặn âm thanh."); }
+  ttsKeepAwake(true); ttsSpeak();
+}
+function ttsStop(){
+  TTS.on = false; TTS.tok++; if (hasTTS) speechSynthesis.cancel();
+  $("tts").setAttribute("aria-pressed", "false"); $("tts").textContent = "🔊";
+  ttsMark(null); ttsKeepAwake(false);
+}
+$("tts").addEventListener("click", () => { if (!hasTTS) { alert("Trình duyệt này không hỗ trợ đọc to. Hãy thử mở bằng Chrome/Safari bản mới."); return; } if (TTS.on) ttsStop(); else ttsStart(); });
+$("ttsvoice").addEventListener("click", () => {
+  if (!hasTTS) return;
+  const vi = speechSynthesis.getVoices().filter(v => /^vi/i.test(v.lang));
+  if (!vi.length) { ttsNote("Máy chưa có giọng tiếng Việt nào. Hãy cài thêm trong Cài đặt → Chuyển văn bản thành giọng nói, hoặc mở bằng Microsoft Edge (có giọng Việt tự nhiên)."); return; }
+  const cur = ttsVoice(); const k = (vi.findIndex(v => cur && v.name === cur.name) + 1) % vi.length;
+  store.set("pbcs-voice", vi[k].name);
+  ttsNote("Giọng " + (k + 1) + "/" + vi.length + ": " + vi[k].name + (vi.length === 1 ? " (máy chỉ có 1 giọng Việt; Microsoft Edge thường có giọng tự nhiên hơn)" : ""));
+  if (TTS.on) ttsSpeak();
+});
+$("ttsrate").addEventListener("click", () => {
+  const rs = [1, 1.25, 1.5, 0.85]; TTS.rate = rs[(rs.indexOf(TTS.rate) + 1) % rs.length];
+  $("ttsrate").textContent = TTS.rate + "×"; store.set("pbcs-rate", String(TTS.rate));
+  if (TTS.on) ttsSpeak();
+});
+if (hasTTS) speechSynthesis.onvoiceschanged = () => {};
+document.addEventListener("visibilitychange", () => { if (!document.hidden && TTS.on) ttsKeepAwake(true); });
+
+function go(n){ location.hash = "chuong-" + n; }
+function curIndex(){ const m = /^#chuong-(\d+)$/.exec(location.hash); return m ? byN.get(+m[1]) : 0; }
+
+$("fabnext").addEventListener("click", () => { const i = curIndex(); if (i < CHAPTERS.length-1) go(CHAPTERS[i+1].n); });
+$("prev").addEventListener("click", () => { const i = curIndex(); if (i > 0) go(CHAPTERS[i-1].n); });
+$("next").addEventListener("click", () => { const i = curIndex(); if (i < CHAPTERS.length-1) go(CHAPTERS[i+1].n); });
+$("tocbtn").addEventListener("click", () => { location.hash = "muc-luc"; });
+$("back").addEventListener("click", () => {
+  if (history.length > 1) history.back(); else location.hash = "muc-luc";
+});
+function setSize(s){ size = Math.max(.95, Math.min(1.5, s)); document.documentElement.style.setProperty("--size", size + "rem"); store.set("pbcs-size", String(size)); }
+$("smaller").addEventListener("click", () => setSize(size - .0625));
+$("bigger").addEventListener("click", () => setSize(size + .0625));
+document.addEventListener("keydown", e => {
+  if ($("reader").hidden) return;
+  if (e.key === "ArrowLeft") $("prev").click();
+  if (e.key === "ArrowRight") $("next").click();
+});
+
+const sz = parseFloat(store.get("pbcs-size")); if (!isNaN(sz)) setSize(sz);
+window.addEventListener("hashchange", route);
+route();
+</script>
+
+</body></html>
