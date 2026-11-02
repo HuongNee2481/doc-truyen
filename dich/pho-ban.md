@@ -47,6 +47,7 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
   sinh vật/năng lượng/Ô Thánh Hồn là **nó**.
 - Thoại giữa người chơi/người lạ: **tôi – anh/cô/cậu**; KTN giả giọng bán hàng: "Thân ơi… nha!".
 - Nhà Hỷ: Hỷ tự xưng **ta**/**mẹ**, gọi con **con**; Kelles – Salman: **anh – em**; con gọi Hỷ là **mẹ**.
+- Kelles với KTN: **tôi – em**, gọi "thư chủ"; KTN gọi Hỷ là **mẹ** (阿母); Arent với KTN: **cha – con**, với Kelles: **tôi – cậu**.
 - Nhóm sói tuần tra gọi Kelles là **thủ lĩnh**/**anh**; Salman là **phó thủ**.
 - KTN nói với Ô Thánh Hồn: **chị Ô – em**.
 - Lời độc thoại châm biếm của KTN giữ giọng mạng, câu ngắn ("Khoan đã?", "Không phải?", "Vậy thì không sao.").
@@ -116,6 +117,18 @@ nguyên văn (`?` = chưa biết) — gặp chữ Hán thật trong bản gốc 
 | 萨尔曼 | Salman (phó thủ, em ruột Kelles, thú phu thứ hai) |
 | Smurphy | Smurphy (sói trẻ nhất đội tuần tra) |
 | 亚伦特 | Arent (hồ ly trắng bốn đuôi, chiến sĩ cấp bốn, "cha" của Thừa) |
+| 万兽城 / 兽城 / 城主 | Vạn Thú Thành / Thú Thành / thành chủ |
+| 凛冬纪 | Đông Giá Kỷ |
+| 兽集 / 集市 | chợ thú / chợ |
+| 雌母 | mẹ (con trai gọi Hỷ) |
+| 妻夫 | vợ chồng ("đôi vợ chồng nhỏ") |
+| 侧室 / 贱兽 / 野雄性 | thiếp thất / đồ tiện thú / con đực ngoài |
+| 斯墨菲 | Smurphy (sói trẻ cấp hai, muốn làm thú phu) |
+| 空间风暴 / 黑色旋涡 | bão không gian / vòng xoáy đen |
+| 权柄 / 邪神分支 / 眷属 | quyền bính / phân chi Tà Thần / quyến thuộc |
+| 幽灵系 / 亡灵玩家 | hệ u linh / người chơi vong linh (gọi là **nó**) |
+| 治愈药剂 | thuốc chữa trị |
+| 2.0版本自用款邪种 | tà chủng tự dùng phiên bản 2.0 (của KTN) |
 | 喜 / 玎 / 承 | Hỷ (mẹ Kelles–Salman) / Đinh (bà ngoại, người đứng đầu) / Thừa (tên Hỷ đặt cho KTN) |
 | 族长 | tộc trưởng (nữ, "bà") |
 | 阿爹 / 阿母 | cha / mẹ (Arent tự xưng "cha" với KTN, gọi Kelles là "cậu") |
@@ -125,5 +138,6 @@ nguyên văn (`?` = chưa biết) — gặp chữ Hán thật trong bản gốc 
 
 1–448 (bản gốc của chủ repo).
 449–452 (đợt 2): KTN nuốt cục năng lượng Tà Thần, biết thế giới là bãi săn của Tà Thần, "thức tỉnh" giả không gian trồng trọt (gạo hạt tròn) để nuốt ô nhiễm trong thú nhân; Kelles phát hiện giống lương thực của thư chủ cao cấp hơn.
+453–458: người chơi bị hồn tộc truy sát; KTN hóa hình á thành niên, gieo tà chủng 2.0 cho nhà Hỷ; đi chợ thú, gặp thú nhân đột phá cấp bảy hóa phân chi Tà Thần.
 
-Bản gốc chủ repo có thể để ở `Downloads/Excerpo/求生副本：美人她一心苟命/` (file `#k_第N章 凛冬求生-x.txt`, số chương = N).
+Bản gốc: chủ repo đưa file TXT cả truyện (mã GBK, chuyển bằng ); dòng tiêu đề chương dính vào cuối dòng trước và cuối mỗi chương thường mất 1–2 chữ — tự bù cho tròn câu. Bản tới ch.474 (473 = Đông giá cầu sinh hoàn, 474 = Tinh hệ (9)).
