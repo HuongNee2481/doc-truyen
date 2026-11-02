@@ -79,6 +79,12 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 | 自動熔爐 / 防禦塔 | lò luyện tự động / tháp phòng ngự |
 | 虛空共鳴聖鏈 | Thánh Liên Cộng Hưởng Hư Không |
 | 周洋 | Chu Dương |
+| 車冢站 / 荒原斗場 | Trạm Xa Trủng / Đấu Trường Hoang Nguyên |
+| 列車長身份卡 / 列車員 | Thẻ Thân Phận Trưởng Tàu / nhân viên tàu |
+| 大型競技場 / 基地塔 | Đại Đấu Trường / tháp căn cứ |
+| 灰霧長刀・覺醒 / 灰霧斬 | Trường đao Hôi Vụ · Thức Tỉnh / Hôi Vụ Trảm |
+| 回能劑 / 緊急修復液 | thuốc hồi năng / dung dịch sửa chữa khẩn cấp |
+| 端水 | bưng bát nước cho bằng (không thiên vị) |
 | 平安站 / 白樺站 / 冰原站 | Trạm Bình An / Trạm Bạch Hoa / Trạm Băng Nguyên |
 | 世界頻道 / 交易行 / 玩家面板 | kênh thế giới / sàn giao dịch / bảng người chơi |
 | 新手禮包 / 基礎生存車廂 | gói quà tân thủ / toa sinh tồn cơ bản |
@@ -95,5 +101,5 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 
 ## Đã dịch
 
-118–150 (ch.150: cả năm người đeo Thánh Liên Cộng Hưởng Hư Không lưu sẵn kỹ năng; pháo đài đã lên cấp 2, kênh thế giới bắt đầu đông người chơi). 143–150 do subagent dịch.
+118–166 (ch.166: nhóm A thắng Đấu Trường Hoang Nguyên trước hạn, cả năm người được dịch chuyển về toa tàu, phần thưởng rơi đầy dưới chân). 143–166 do subagent dịch. Bản gốc người dùng đưa (file RAR) chỉ đến 166.
 Chương cũ (dịch bằng subagent) nằm trong `truyen/doan-tau-dot-0.html`. Đủ 1–117. Với người chơi khác, Vân Tịch xưng "tôi", gọi "anh/cô".
