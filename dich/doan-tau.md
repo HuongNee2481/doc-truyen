@@ -48,16 +48,30 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 | 灰霧晶核 / 炎晶 / 冰晶 / 雷晶 | Hôi Vụ Tinh Hạch / Viêm Tinh / Băng Tinh / Lôi Tinh |
 | 灰霧長刀 | trường đao Hôi Vụ |
 | 黑匣子 | hộp đen |
-| 時之砂 | Cát Thời Gian |
+| 時之砂 | Thời Chi Sa |
 | 生命感知 / 治癒術 | cảm tri sinh mệnh / trị liệu thuật |
 | 能量手槍 / 能量強弩 / 狙擊槍 | súng lục năng lượng / nỏ năng lượng / súng bắn tỉa |
 | 恆溫外套 / 防護服 | áo khoác giữ nhiệt / đồ bảo hộ |
 | 單片眼鏡 | kính một mắt |
 | 火蜥王 / 炎獄熔窟 | Hỏa Tích Vương / Viêm Ngục Dung Quật |
 | 寒霜站 | Trạm Hàn Sương |
+| 時隙站 / 時之鐘樓 | Trạm Thời Khích / Thời Chi Chung Lâu |
+| 小三爺 | Tiểu Tam gia (Ngô Tà) |
+| 熔岩核心 | lõi dung nham |
+| 雪橇車 | xe trượt tuyết |
+| 木箱 / 青銅箱 / 精鐵箱 / 白銀箱 | rương gỗ / rương đồng xanh / rương tinh thiết / rương bạc |
+| 能源結晶 / 高級能量結晶 | kết tinh năng lượng / tinh thể năng lượng cao cấp |
+| 輔助系統 / 末日庇護所 | hệ thống phụ trợ / nơi trú ẩn tận thế |
+| 製作台 / 模塊 / 圖紙 | bàn chế tạo / mô-đun / bản vẽ |
+| 便攜庇護所 / 移動庇護所 | nơi trú ẩn di động |
+| 雪狐 / 冰甲熊 / 雪豹 | cáo tuyết / gấu giáp băng / báo tuyết |
+| 野怪 / 精英怪 | quái hoang / quái tinh anh |
+| 火蜥斷尾替身 | thế thân Đuôi Đứt Hỏa Tích |
+| 霍玲 | Hoắc Linh |
 | 品質: 稀有 / 精良 / 史詩 / 珍稀 | Hiếm / Tinh lương / Sử thi / Trân hiếm |
 | 優良 | Ưu Lương |
 
 ## Đã dịch
 
-118–126 (ch.126: Nơi Trú Ẩn Tận Thế Cực Hàn — bắt đầu phó bản sân ga ẩn 30 ngày).
+118–136 (ch.136: Giải Vũ Thần hôn Vân Tịch sau khi nàng và Tiểu Ca ngâm suối nước nóng; nàng hỏi sao y đặc biệt để ý Tiểu Ca. Nơi trú ẩn sắp kích hoạt hệ thống phụ trợ).
+Chương cũ 1–68, 75–102 đang dịch bằng subagent → file `truyen/doan-tau-dot-0.html`.
