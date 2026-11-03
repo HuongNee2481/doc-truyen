@@ -22,7 +22,7 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 ## Xưng hô
 
 - Lời kể: Vân Tịch là **nàng**; các nam là **hắn** (Hắc Hạt Tử, Trương Khởi Linh) / **y** (Giải Vũ Thần, Ngô Tà).
-- Thoại: các nam gọi Vân Tịch là **cô**, tự xưng **ta**, gọi nhau "huynh"/tên; Vân Tịch gọi họ là **huynh**, tự xưng **ta**.
+- Thoại: các nam nói với Vân Tịch xưng **tôi**, gọi nàng là **em** ("bọn tôi" khi không gồm nàng; "chúng ta" giữ nguyên). Vân Tịch gọi họ là **huynh**, tự xưng **ta**. Các nam nói với nhau vẫn xưng "ta", gọi "huynh"/"cậu"/tên. (Đổi theo yêu cầu chủ repo ngày 2026-11-03, đã sửa lại toàn bộ 1–169.)
 - Hắc Hạt Tử đôi khi tự xưng "Hạt Tử ta"; gọi Vân Tịch là "tiểu cường giả" (小強者).
 
 ## Tên riêng / thuật ngữ
@@ -106,5 +106,5 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 
 ## Đã dịch
 
-118–169 (ch.169: đoàn tàu tới Trạm Kính Thành, vào cửa ải đặc biệt cấp C Kính Hoa Thủy Nguyệt, sáu tầng; Ngô Tà đã thân mật với Vân Tịch, mọi người chờ lên cấp 6 để thêm mô-đun phòng ngủ). 143–166 do subagent dịch. Bản gốc người dùng đưa (file RAR) chỉ đến 166.
+118–169 (ch.169: đoàn tàu tới Trạm Kính Thành, vào cửa ải đặc biệt cấp C Kính Hoa Thủy Nguyệt, sáu tầng; Ngô Tà đã thân mật với Vân Tịch, mọi người chờ lên cấp 6 để thêm mô-đun phòng ngủ). 143–166 do subagent dịch. 167+ người dùng dán vào chat.
 Chương cũ (dịch bằng subagent) nằm trong `truyen/doan-tau-dot-0.html`. Đủ 1–117. Với người chơi khác, Vân Tịch xưng "tôi", gọi "anh/cô".
