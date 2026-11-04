@@ -316,8 +316,8 @@
         <p class="ch-num">Chương ${n} · ${i + 1}/${s.chapters.length}</p>
         <h2 class="ch-title">${esc(c.title || 'Chương ' + n)}</h2>
         <div class="text">${body.html || '<p class="muted">Chương này chưa có nội dung.</p>'}</div>
-        <div class="end-nav">${go(prev, '← Chương trước')}${go(next, 'Chương sau →')}</div>
       </div>
+      ${next != null ? `<a class="btn" id="fabnext" href="${link({ p: 'read', id: s.id, n: next })}" aria-label="Chương sau">›</a>` : ''}
       <nav class="r-bottom" aria-label="Chuyển chương"><div class="inner">
         ${go(prev, '← Trước')}
         <select class="chap-select" aria-label="Chọn chương">${s.chapters.map(x =>

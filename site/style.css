@@ -202,8 +202,6 @@ h2.ch-title { font-family: var(--display); font-weight: 600; font-size: 1.75rem;
 .text .chat { font-family: var(--ui); font-size: .9em; line-height: 1.6; background: var(--chat-bg); padding: .45rem .8rem; margin: 0 0 .35em; border-radius: 6px; }
 .text .chat + p:not(.chat) { margin-top: 1em; }
 .text .beat { text-align: center; color: var(--muted); letter-spacing: .3em; }
-.end-nav { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
-.end-nav .btn { padding: .8rem; }
 .r-bottom { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background: var(--paper); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
 .r-bottom .inner { max-width: 42rem; margin: 0 auto; padding: .55rem 16px; display: grid; grid-template-columns: 1fr minmax(0, 1.3fr) 1fr; gap: .5rem; }
 .r-bottom .btn { width: 100%; padding: .6rem .3rem; font-size: .85rem; }
