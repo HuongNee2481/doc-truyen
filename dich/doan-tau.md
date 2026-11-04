@@ -90,6 +90,8 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 | 荒野之牙 / 蝶影戰術護甲 | Nanh Hoang Dã / giáp chiến thuật Điệp Ảnh |
 | 守鍾人單片眼鏡 | kính một mắt Thủ Chung Nhân |
 | 萬能存錢罐 | heo đất vạn năng |
+| 雙生同啟 / 照骨池 | Song Sinh Đồng Khải / Chiếu Cốt Trì |
+| 複製體 | bản sao |
 | 平安站 / 白樺站 / 冰原站 | Trạm Bình An / Trạm Bạch Hoa / Trạm Băng Nguyên |
 | 世界頻道 / 交易行 / 玩家面板 | kênh thế giới / sàn giao dịch / bảng người chơi |
 | 新手禮包 / 基礎生存車廂 | gói quà tân thủ / toa sinh tồn cơ bản |
@@ -106,5 +108,5 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 
 ## Đã dịch
 
-118–169 (ch.169: đoàn tàu tới Trạm Kính Thành, vào cửa ải đặc biệt cấp C Kính Hoa Thủy Nguyệt, sáu tầng; Ngô Tà đã thân mật với Vân Tịch, mọi người chờ lên cấp 6 để thêm mô-đun phòng ngủ). 143–166 do subagent dịch. 167+ người dùng dán vào chat.
+118–171 (ch.171: cửa ải Kính Hoa Thủy Nguyệt — qua hành lang gương, cửa đá Song Sinh Đồng Khải, đi ngược xuống dưới, tới hồ Chiếu Cốt Trì). 143–166 do subagent dịch. 167+ người dùng dán vào chat.
 Chương cũ (dịch bằng subagent) nằm trong `truyen/doan-tau-dot-0.html`. Đủ 1–117. Với người chơi khác, Vân Tịch xưng "tôi", gọi "anh/cô".
