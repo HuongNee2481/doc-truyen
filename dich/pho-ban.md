@@ -21,7 +21,7 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 - Chương cuối một phó bản: `Tên phó bản (hoàn)` (bản cũ có lẫn "Hoàn"/"hết" — từ nay dùng "(hoàn)" chữ thường).
 - Giữa các phó bản là `Hiện thực (n)` (thế giới thật) hoặc `Tinh hệ (n)` (từ ch.388, thời ở tinh hệ/tầng nhà ở);
   số đếm của mỗi nhóm nối tiếp lần trước, VD Tinh hệ (5) → … → Tinh hệ (6).
-- Nhóm hiện tại: **Tinh hệ** — ch.474 là (9), nên ch.475 = "Tinh hệ (10)". Ch.473 = "Đông giá cầu sinh (hoàn)".
+- Nhóm hiện tại: **Mạt nhật cuồng triều** — ch.492 là (13), nên ch.493 = "Mạt nhật cuồng triều (14)". Tinh hệ kết thúc ở (14) = ch.479.
 - Đã có: Hải dương cầu sinh, Hiện thực (đến 59), Cầu sinh trên quốc lộ, Cầu sinh trên mây, Đào thoát zombie,
   Cầu sinh lưu đày, Cầu sinh rừng mưa, Cầu sinh quỷ dị, Vĩnh dạ, Nữ tôn, Chuyến tàu điểm cuối,
   Cầu sinh hàng không, Tinh hệ (đến 8), Kính tự do, Thiên ngoại thứ tự, Đông giá cầu sinh.
@@ -150,6 +150,19 @@ nguyên văn (`?` = chưa biết) — gặp chữ Hán thật trong bản gốc 
 | 班主 | Ban Chủ — ID mới của KTN, người chơi thứ tự E-009 |
 | 冀丰 | Ký Phong (người chơi sói, sống sót, lên cấp K) |
 | 竞技场 / 传送台 | đấu trường (từ tầng 26) / đài dịch chuyển (1 triệu kim tệ/tầng) |
+| 竞技场 积分 / 保级卡 / 连胜榜 / 排位榜 | điểm tích lũy đấu trường / thẻ giữ hạng / bảng chuỗi thắng / bảng xếp hạng vị trí |
+| 声望 / 玩家论坛 | danh vọng / diễn đàn người chơi (bài đăng ẩn danh: `（???-Ẩn danh: …）`) |
+| 落双 | Lạc Song (người chơi công hội, kỹ năng con rối, nhắm vào Ban Chủ) |
+| 传奇的来信 / 藏宝图·神级 | Lá thư của huyền thoại / Bản đồ kho báu · Cấp thần |
+| 统统 (前台) | Thống Thống (quầy lễ tân hệ thống) — hảo cảm hệ thống |
+| 末日狂潮 / 爆发日 | Mạt nhật cuồng triều (tiêu đề) / Ngày Bùng Phát (phó bản C, 100 người, 180 ngày) |
+| 人设 / 人设崩坏 / 舔狗 | nhân thiết / sụp đổ nhân thiết / chó liếm |
+| 全豆沙 | Toàn Đậu Sa (thân phận KTN, sinh viên; bạn cùng phòng gọi "Tư" 老四) |
+| 张锦程 / 刘嘉乐 / 盛轩辕 | Trương Cẩm Trình (chị Cả, trưởng phòng) / Lưu Gia Lạc (Hai) / Thịnh Hiên Viên (Ba) |
+| 唐糖 / 方可可 / 林糯糯 | Đường Đường (xuyên sách, có hệ thống phụ trợ) / Phương Khả Khả (bạn cùng phòng Đường Đường) / Lâm Nhu Nhu (nam chính gốc, trọng sinh, người thuê nhà của KTN) |
+| 母父 / 妻夫 / 大小哥 / 少姥 / 大姥 | mẹ cha / vợ chồng / đại thiếu gia / thiếu chủ / đại lão (thế giới nữ tôn) |
+| 蓉蓉 / 重云 | Dung Dung / Trọng Vân |
+| 我看你是相思了 | "Tôi thấy cậu là tương tư rồi" (tên chat của KTN) |
 | 喜 / 玎 / 承 | Hỷ (mẹ Kelles–Salman) / Đinh (bà ngoại, người đứng đầu) / Thừa (tên Hỷ đặt cho KTN) |
 | 族长 | tộc trưởng (nữ, "bà") |
 | 阿爹 / 阿母 | cha / mẹ (Arent tự xưng "cha" với KTN, gọi Kelles là "cậu") |
@@ -162,6 +175,7 @@ nguyên văn (`?` = chưa biết) — gặp chữ Hán thật trong bản gốc 
 453–458: người chơi bị hồn tộc truy sát; KTN hóa hình á thành niên, gieo tà chủng 2.0 cho nhà Hỷ; đi chợ thú, gặp thú nhân đột phá cấp bảy hóa phân chi Tà Thần.
 459–464: KTN hóa Tịnh Hoa Thiên Ngự Hoàng rồi dạng Tà Thần, nuốt thể ô nhiễm, nhận Quyền bính Cái Đẹp; Tà Thần nhện để ý cô; từ biệt Kelles; dưới biển gặp phân thân cổ thần bạch tuộc nhận cô là đồng tộc mẫu hệ.
 465–473: cổ thần (bản thể) nặn da người đến cứu KTN khỏi Tà Thần nhện, truyền năng lượng, tặng nhẫn rồi đi; KTN sống sót, nhận danh hiệu, thành người chơi thứ tự E-009, ID Ban Chủ, vũ khí Sợi Tơ Vận Mệnh. 473 = Đông giá cầu sinh (hoàn).
-474: Tinh hệ (9) — chuyển lên tầng 26, vào đấu trường. Bản gốc chủ repo đưa mới tới 474 (đang ra), tiếp theo là ch.475 = Tinh hệ (10).
+474–479: Tinh hệ (9)–(14) — tầng 26, đấu trường (ID Ban Chủ, trăm trận thắng liên tiếp), thư huyền thoại → bản đồ kho báu cấp thần, quầy trà sữa hệ thống.
+480–492: Mạt nhật cuồng triều (1)–(13) — KTN dùng ID Tường Thụy, dạng zombie, nhân thiết "chó liếm" ở thế giới nữ tôn; zombie bùng phát ngày 10; KTN chọn Lâm Nhu Nhu làm mục tiêu. Bản gốc chủ repo đưa mới tới 492.
 
 Bản gốc: chủ repo đưa file TXT cả truyện (mã GBK, chuyển bằng `iconv -f GB18030 -t UTF-8`); dòng tiêu đề chương dính vào cuối dòng trước và cuối mỗi chương thường mất 1–2 chữ — tự bù cho tròn câu. Bản tới ch.474 (473 = Đông giá cầu sinh hoàn, 474 = Tinh hệ (9)).
