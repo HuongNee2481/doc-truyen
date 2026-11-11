@@ -92,6 +92,8 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 | 萬能存錢罐 | heo đất vạn năng |
 | 雙生同啟 / 照骨池 | Song Sinh Đồng Khải / Chiếu Cốt Trì |
 | 複製體 | bản sao |
+| 虛空之匣 / 虛實之鏡 | Hư Không Chi Hạp / Hư Thực Chi Kính |
+| 發丘指 | ngón tay Phát Khâu |
 | 平安站 / 白樺站 / 冰原站 | Trạm Bình An / Trạm Bạch Hoa / Trạm Băng Nguyên |
 | 世界頻道 / 交易行 / 玩家面板 | kênh thế giới / sàn giao dịch / bảng người chơi |
 | 新手禮包 / 基礎生存車廂 | gói quà tân thủ / toa sinh tồn cơ bản |
@@ -108,5 +110,5 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 
 ## Đã dịch
 
-118–172 (ch.172: qua Chiếu Cốt Trì nhờ Vân Tịch nổ ba tượng đá; xuống tầng bốn — đại điện tinh đồ, bốn gương đảo phương hướng, lối ra trên trần cao 7–8 m). 143–166 do subagent dịch. 167+ người dùng dán vào chat.
+118–175 (ch.175: vượt ải Kính Hoa Thủy Nguyệt, đánh giá Xuất sắc; phần thưởng gồm Hư Không Chi Hạp, Hư Thực Chi Kính, 2 bản vẽ, 1 phương thuốc; còn 40 phút trước khi tàu chạy). 143–166 do subagent dịch. 167+ người dùng dán vào chat.
 Chương cũ (dịch bằng subagent) nằm trong `truyen/doan-tau-dot-0.html`. Đủ 1–117. Với người chơi khác, Vân Tịch xưng "tôi", gọi "anh/cô".
