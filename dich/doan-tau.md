@@ -108,5 +108,5 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 
 ## Đã dịch
 
-118–171 (ch.171: cửa ải Kính Hoa Thủy Nguyệt — qua hành lang gương, cửa đá Song Sinh Đồng Khải, đi ngược xuống dưới, tới hồ Chiếu Cốt Trì). 143–166 do subagent dịch. 167+ người dùng dán vào chat.
+118–172 (ch.172: qua Chiếu Cốt Trì nhờ Vân Tịch nổ ba tượng đá; xuống tầng bốn — đại điện tinh đồ, bốn gương đảo phương hướng, lối ra trên trần cao 7–8 m). 143–166 do subagent dịch. 167+ người dùng dán vào chat.
 Chương cũ (dịch bằng subagent) nằm trong `truyen/doan-tau-dot-0.html`. Đủ 1–117. Với người chơi khác, Vân Tịch xưng "tôi", gọi "anh/cô".
