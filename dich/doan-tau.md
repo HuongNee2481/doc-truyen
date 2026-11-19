@@ -22,7 +22,8 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 ## Xưng hô
 
 - Lời kể: Vân Tịch là **nàng**; các nam là **hắn** (Hắc Hạt Tử, Trương Khởi Linh) / **y** (Giải Vũ Thần, Ngô Tà).
-- Thoại: các nam nói với Vân Tịch xưng **tôi**, gọi nàng là **em** ("bọn tôi" khi không gồm nàng; "chúng ta" giữ nguyên). Vân Tịch gọi họ là **huynh**, tự xưng **ta**. Các nam nói với nhau vẫn xưng "ta", gọi "huynh"/"cậu"/tên. (Đổi theo yêu cầu chủ repo ngày 2026-11-03, đã sửa lại toàn bộ 1–169.)
+- Thoại: các nam nói với Vân Tịch xưng **ta**, gọi nàng là **muội** ("bọn ta"/"chúng ta"). Vân Tịch gọi họ là **huynh**, tự xưng **ta**. Các nam nói với nhau xưng "ta", gọi "huynh"/"cậu"/tên. (Chốt ngày 2026-11-19, đã sửa lại toàn bộ 1–190; trước đó từng dùng tôi–em.)
+- Thuật ngữ "module", "tàu viên" trong chương người dùng tự dịch: giữ nguyên, không chuẩn hóa.
 - Hắc Hạt Tử đôi khi tự xưng "Hạt Tử ta"; gọi Vân Tịch là "tiểu cường giả" (小強者).
 
 ## Tên riêng / thuật ngữ
@@ -112,5 +113,5 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 
 ## Đã dịch
 
-118–192 (bản gốc KHÔNG có ch.177–178 — tác giả đánh số nhảy, giữ nguyên số gốc. ch.183–192 lấy từ bản dịch người dùng gửi (file HTML trong Downloads, đánh số 181–190 → +2), đã chuẩn hóa ngoặc kép, "mô-đun", "nhân viên tàu", xưng hô tôi–em, "muội"→"em". ch.192: Tháp Trí Uyên, thông quan ván thứ nhất). 143–166 do subagent dịch. 167+ người dùng dán vào chat.
+118–191. Số chương đã đánh lại liền mạch 1–191 (bản gốc từng nhảy 176→179; nay khớp số trên trang nguồn). 181–190 lấy từ bản dịch người dùng gửi (giữ nguyên chữ, chỉ đổi ngoặc kép). ch.191: Ngũ Âm Hồi Lang thông quan, sang ván ba Tháp Tâm Chi Tranh (hỗn chiến, Minh Tâm Đài).
 Chương cũ (dịch bằng subagent) nằm trong `truyen/doan-tau-dot-0.html`. Đủ 1–117. Với người chơi khác, Vân Tịch xưng "tôi", gọi "anh/cô".
