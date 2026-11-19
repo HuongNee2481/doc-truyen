@@ -112,5 +112,5 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 
 ## Đã dịch
 
-118–182 (bản gốc KHÔNG có ch.177–178 — tác giả đánh số nhảy, giữ nguyên số gốc. ch.182: vào phó bản cấp D Tiệm Tạp Hóa Rừng Mưa, mưa axit, đi về phía đông nhiều quái). 143–166 do subagent dịch. 167+ người dùng dán vào chat.
+118–192 (bản gốc KHÔNG có ch.177–178 — tác giả đánh số nhảy, giữ nguyên số gốc. ch.183–192 lấy từ bản dịch người dùng gửi (file HTML trong Downloads, đánh số 181–190 → +2), đã chuẩn hóa ngoặc kép, "mô-đun", "nhân viên tàu", xưng hô tôi–em, "muội"→"em". ch.192: Tháp Trí Uyên, thông quan ván thứ nhất). 143–166 do subagent dịch. 167+ người dùng dán vào chat.
 Chương cũ (dịch bằng subagent) nằm trong `truyen/doan-tau-dot-0.html`. Đủ 1–117. Với người chơi khác, Vân Tịch xưng "tôi", gọi "anh/cô".
