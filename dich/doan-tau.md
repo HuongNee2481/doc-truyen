@@ -113,5 +113,5 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 
 ## Đã dịch
 
-118–191. Số chương đã đánh lại liền mạch 1–191 (bản gốc từng nhảy 176→179; nay khớp số trên trang nguồn). 181–190 lấy từ bản dịch người dùng gửi (giữ nguyên chữ, chỉ đổi ngoặc kép). ch.191: Ngũ Âm Hồi Lang thông quan, sang ván ba Tháp Tâm Chi Tranh (hỗn chiến, Minh Tâm Đài).
+118–192. Số chương đã đánh lại liền mạch 1–191 (bản gốc từng nhảy 176→179; nay khớp số trên trang nguồn). 181–190 lấy từ bản dịch người dùng gửi (giữ nguyên chữ, chỉ đổi ngoặc kép). ch.192: nhóm A loại sạch ba nhóm, giải Minh Tâm Đài, đưa minh văn tới tâm tháp — thắng ván ba, tổng 728 điểm, sắp dịch chuyển về.
 Chương cũ (dịch bằng subagent) nằm trong `truyen/doan-tau-dot-0.html`. Đủ 1–117. Với người chơi khác, Vân Tịch xưng "tôi", gọi "anh/cô".
