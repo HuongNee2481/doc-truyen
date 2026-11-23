@@ -21,7 +21,7 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 - Chương cuối một phó bản: `Tên phó bản (hoàn)` (bản cũ có lẫn "Hoàn"/"hết" — từ nay dùng "(hoàn)" chữ thường).
 - Giữa các phó bản là `Hiện thực (n)` (thế giới thật) hoặc `Tinh hệ (n)` (từ ch.388, thời ở tinh hệ/tầng nhà ở);
   số đếm của mỗi nhóm nối tiếp lần trước, VD Tinh hệ (5) → … → Tinh hệ (6).
-- Nhóm hiện tại: **Mạt nhật cuồng triều** — ch.492 là (13), nên ch.493 = "Mạt nhật cuồng triều (14)". Tinh hệ kết thúc ở (14) = ch.479.
+- Nhóm hiện tại: **Mạt nhật cuồng triều** — ch.502 là (23), nên ch.503 = "Mạt nhật cuồng triều (24)".
 - Đã có: Hải dương cầu sinh, Hiện thực (đến 59), Cầu sinh trên quốc lộ, Cầu sinh trên mây, Đào thoát zombie,
   Cầu sinh lưu đày, Cầu sinh rừng mưa, Cầu sinh quỷ dị, Vĩnh dạ, Nữ tôn, Chuyến tàu điểm cuối,
   Cầu sinh hàng không, Tinh hệ (đến 8), Kính tự do, Thiên ngoại thứ tự, Đông giá cầu sinh.
@@ -163,6 +163,13 @@ nguyên văn (`?` = chưa biết) — gặp chữ Hán thật trong bản gốc 
 | 母父 / 妻夫 / 大小哥 / 少姥 / 大姥 | mẹ cha / vợ chồng / đại thiếu gia / thiếu chủ / đại lão (thế giới nữ tôn) |
 | 蓉蓉 / 重云 | Dung Dung / Trọng Vân |
 | 我看你是相思了 | "Tôi thấy cậu là tương tư rồi" (tên chat của KTN) |
+| 徐秀祥 (2103) | Từ Tú Tường (nữ, cầm đầu "hội quản lý sinh tồn" của tòa căn hộ) |
+| 楚恒荣 / 乔扶辞 / 楚亚女 | Sở Hằng Vinh (dị năng lôi) / Kiều Phù Từ (dị năng kim) / Sở Á Nữ (em trai Sở Hằng Vinh, nam) |
+| 02号安全区基地 | căn cứ khu an toàn số 02 (tỉnh A) |
+| 晶核 / 异果 / 朱果 | tinh hạch / dị quả / Chu Quả |
+| 人设评定点 / 人设认定评价 | điểm đánh giá nhân thiết / đánh giá công nhận nhân thiết |
+| 喉结罩 / 妻主 | miếng che yết hầu / thê chủ |
+| 伴生云藤 / 脊刃 / 扇子诡器 | Vân Đằng bạn sinh / lưỡi xương sống (quỷ khí) / quỷ khí cây quạt |
 | 喜 / 玎 / 承 | Hỷ (mẹ Kelles–Salman) / Đinh (bà ngoại, người đứng đầu) / Thừa (tên Hỷ đặt cho KTN) |
 | 族长 | tộc trưởng (nữ, "bà") |
 | 阿爹 / 阿母 | cha / mẹ (Arent tự xưng "cha" với KTN, gọi Kelles là "cậu") |
@@ -177,5 +184,7 @@ nguyên văn (`?` = chưa biết) — gặp chữ Hán thật trong bản gốc 
 465–473: cổ thần (bản thể) nặn da người đến cứu KTN khỏi Tà Thần nhện, truyền năng lượng, tặng nhẫn rồi đi; KTN sống sót, nhận danh hiệu, thành người chơi thứ tự E-009, ID Ban Chủ, vũ khí Sợi Tơ Vận Mệnh. 473 = Đông giá cầu sinh (hoàn).
 474–479: Tinh hệ (9)–(14) — tầng 26, đấu trường (ID Ban Chủ, trăm trận thắng liên tiếp), thư huyền thoại → bản đồ kho báu cấp thần, quầy trà sữa hệ thống.
 480–492: Mạt nhật cuồng triều (1)–(13) — KTN dùng ID Tường Thụy, dạng zombie, nhân thiết "chó liếm" ở thế giới nữ tôn; zombie bùng phát ngày 10; KTN chọn Lâm Nhu Nhu làm mục tiêu. Bản gốc chủ repo đưa mới tới 492.
+493–502: Mạt nhật cuồng triều (14)–(23) — rời căn hộ bằng nhà di động, gặp Sở Hằng Vinh–Kiều Phù Từ–Sở Á Nữ, Lâm Nhu Nhu thức tỉnh dị năng chữa trị, KTN ràng buộc Lâm Nhu Nhu, gom điểm đánh giá nhân thiết trên đường tới căn cứ 02; đêm lạnh bất thường, mưa lạ.
+Ch.503–510 trong file nguồn ngày 23/11 là bản "待补" (tác giả mới đăng một phần) → chưa dịch, chờ bản đầy đủ.
 
 Bản gốc: chủ repo đưa file TXT cả truyện (mã GBK, chuyển bằng `iconv -f GB18030 -t UTF-8`); dòng tiêu đề chương dính vào cuối dòng trước và cuối mỗi chương thường mất 1–2 chữ — tự bù cho tròn câu. Bản tới ch.474 (473 = Đông giá cầu sinh hoàn, 474 = Tinh hệ (9)).
