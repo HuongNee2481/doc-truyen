@@ -94,6 +94,7 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 | 雙生同啟 / 照骨池 | Song Sinh Đồng Khải / Chiếu Cốt Trì |
 | 複製體 | bản sao |
 | 文明脈絡碎片 / 資源星 | Mảnh Văn Minh Mạch Lạc / tinh cầu tài nguyên |
+| 翠嶺站 | Trạm Thúy Lĩnh |
 | 智淵塔 / 百鍊熔爐 | Tháp Trí Uyên / lò nung Bách Luyện |
 | 虛空之匣 / 虛實之鏡 | Hư Không Chi Hạp / Hư Thực Chi Kính |
 | 發丘指 | ngón tay Phát Khâu |
@@ -115,5 +116,5 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 
 ## Đã dịch
 
-118–193. Số chương đã đánh lại liền mạch 1–191 (bản gốc từng nhảy 176→179; nay khớp số trên trang nguồn). 181–190 lấy từ bản dịch người dùng gửi (giữ nguyên chữ, chỉ đổi ngoặc kép). ch.193: nhận Mảnh Văn Minh Mạch Lạc (gom 1000 mảnh để xin tinh cầu tài nguyên), cửa hàng bán được 15,6 vạn xu; ba người đi nhập hàng, để Vân Tịch ở riêng với Giải Vũ Thần.
+118–195. Số chương đã đánh lại liền mạch 1–191 (bản gốc từng nhảy 176→179; nay khớp số trên trang nguồn). 181–190 lấy từ bản dịch người dùng gửi (giữ nguyên chữ, chỉ đổi ngoặc kép). ch.195: tới Trạm Thúy Lĩnh (núi, mưa axit) hái trúc, nấm, măng; gom đủ thêm một Vé Xe Thần Bí, định sáng mai vào phó bản vé xe rồi về nâng cấp đoàn tàu.
 Chương cũ (dịch bằng subagent) nằm trong `truyen/doan-tau-dot-0.html`. Đủ 1–117. Với người chơi khác, Vân Tịch xưng "tôi", gọi "anh/cô".
