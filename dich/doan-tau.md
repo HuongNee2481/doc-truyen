@@ -95,6 +95,7 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 | 複製體 | bản sao |
 | 文明脈絡碎片 / 資源星 | Mảnh Văn Minh Mạch Lạc / tinh cầu tài nguyên |
 | 翠嶺站 | Trạm Thúy Lĩnh |
+| 海洋求生 / 資源島地圖殘卷 | Cầu Sinh Trên Biển / tàn quyển bản đồ đảo tài nguyên |
 | 智淵塔 / 百鍊熔爐 | Tháp Trí Uyên / lò nung Bách Luyện |
 | 虛空之匣 / 虛實之鏡 | Hư Không Chi Hạp / Hư Thực Chi Kính |
 | 發丘指 | ngón tay Phát Khâu |
@@ -116,5 +117,5 @@ Tác giả đã ủy quyền cho chủ repo dịch. Bản gốc do chủ repo d�
 
 ## Đã dịch
 
-118–195. Số chương đã đánh lại liền mạch 1–191 (bản gốc từng nhảy 176→179; nay khớp số trên trang nguồn). 181–190 lấy từ bản dịch người dùng gửi (giữ nguyên chữ, chỉ đổi ngoặc kép). ch.195: tới Trạm Thúy Lĩnh (núi, mưa axit) hái trúc, nấm, măng; gom đủ thêm một Vé Xe Thần Bí, định sáng mai vào phó bản vé xe rồi về nâng cấp đoàn tàu.
+118–196. Số chương đã đánh lại liền mạch 1–191 (bản gốc từng nhảy 176→179; nay khớp số trên trang nguồn). 181–190 lấy từ bản dịch người dùng gửi (giữ nguyên chữ, chỉ đổi ngoặc kép). ch.196: vào phó bản vé xe Cầu Sinh Trên Biển (60 ngày, chế độ thi đấu, cấm dị năng, chỉ có bè gỗ và cần câu); câu được rương, Vân Tịch mở ra tàn quyển bản đồ đảo tài nguyên 1/3.
 Chương cũ (dịch bằng subagent) nằm trong `truyen/doan-tau-dot-0.html`. Đủ 1–117. Với người chơi khác, Vân Tịch xưng "tôi", gọi "anh/cô".
